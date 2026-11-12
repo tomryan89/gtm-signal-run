@@ -1,0 +1,1015 @@
+name,sources,model_answer,group_name,confidence,tom_override,batch
+Abbott,job adverts (employer not in list),FP:abbott laboratories,ABBOTT LABORATORIES LIMITED,high,,step3
+Ageas,job adverts (employer not in list),FP:ageas sa nv,AGEAS INSURANCE LIMITED,high,,step3
+AkzoNobel,CMA case party,FP:akzo nobel n v,J.P.MCDOUGALL & CO.LIMITED,high,,step3
+Amazon,job adverts (employer not in list),FP:amazon com inc,AMAZON UK SERVICES LTD.,high,,step3
+American Express,job adverts (employer not in list),FP:american express company,AMERICAN EXPRESS SERVICES EUROPE LIMITED,high,,step3
+AtkinsRéalis,job adverts (name matches 2 groups),FP:atkinsrealis group inc,ATKINSRÉALIS UK LIMITED,high,,step3
+Bank of America,job adverts (employer not in list),FP:bank of america corporation,MERRILL LYNCH INTERNATIONAL,high,,step3
+BNY Mellon,job adverts (employer not in list),FP:bank of new york mellon corporation,INSIGHT INVESTMENT MANAGEMENT LIMITED,high,,step3
+Capital One,job adverts (employer not in list),FP:capital one financial corporation,CAPITAL ONE (EUROPE) PLC,high,,step3
+Cboe Global Markets,job adverts (employer not in list),FP:cboe global markets inc,CBOE EUROPE LIMITED,high,,step3
+Citi,job adverts (employer not in list),FP:citigroup inc,CITIGROUP GLOBAL MARKETS LIMITED,high,,step3
+Citigroup,job adverts (employer not in list),FP:citigroup inc,CITIGROUP GLOBAL MARKETS LIMITED,high,,step3
+cognizant,job adverts (employer not in list),FP:cognizant technology solutions corporation,COGNIZANT WORLDWIDE LIMITED,high,,step3
+Corpay,job adverts (employer not in list),FP:corpay inc,FLEETCOR EUROPE LIMITED,high,,step3
+Danone,CMA case party,FP:danone sa,NUTRICIA LIMITED,high,,step3
+Danone Holdings (UK),CMA case party,FP:danone sa,NUTRICIA LIMITED,high,,step3
+Dcc Energy Plc,listed company,FP:dcc plc,FLOGAS BRITAIN LIMITED,high,,step3
+Dow Jones & Company,job adverts (employer not in list),FP:dow jones and company inc,DOW JONES INTERNATIONAL LTD.,high,,step3
+E.ON SE,CMA case party,FP:e on se,E.ON UK LIMITED,high,,step3
+ExxonMobil,job adverts (employer not in list),FP:exxon mobil corporation,"ESSO PETROLEUM COMPANY,LIMITED",high,,step3
+F8 FERROVIAL CONSTRUCTION  LIMITED,job adverts (employer not in list),FP:ferrovial n v,THALIA SERVICES LIMITED,high,,step3
+Ferrovial,job adverts (employer not in list),FP:ferrovial n v,THALIA SERVICES LIMITED,high,,step3
+FirstCash,CMA case party,FP:firstcash holdings inc,HARVEY & THOMPSON LIMITED,high,,step3
+FirstCash Holdings Inc,CMA case party,FP:firstcash holdings inc,HARVEY & THOMPSON LIMITED,high,,step3
+Gartner,job adverts (employer not in list),FP:gartner inc,GARTNER U.K. LIMITED,high,,step3
+ICON Clinical Research,job adverts (employer not in list),FP:icon plc,ICON CLINICAL RESEARCH (U.K.) LIMITED,high,,step3
+Ipsen,job adverts (employer not in list),FP:ipsen sa,IPSEN BIOPHARM LIMITED,high,,step3
+JPMorganChase,job adverts (employer not in list),FP:jpmorgan chase and company,JPMORGAN ASSET MANAGEMENT (UK) LIMITED,medium,,step3
+KBR,job adverts (employer not in list),FP:kbr jersey ltd,KELLOGG BROWN & ROOT (U.K.) LIMITED,medium,,step3
+KONE Corporation,CMA case party,FP:kone corporation,KONE PUBLIC LIMITED COMPANY,high,,step3
+Markel,job adverts (employer not in list),FP:markel group inc,MARKEL INTERNATIONAL SERVICES LIMITED,medium,,step3
+Marsh McLennan,job adverts (employer not in list),FP:marsh and mclennan companies inc,MARSH SERVICES LIMITED,high,,step3
+Mastercard,job adverts (employer not in list),FP:mastercard incorporated,MASTERCARD UK MANAGEMENT SERVICES LIMITED,high,,step3
+NCR Atleos Corporation,CMA case party,FP:ncr atleos corporation,CARDTRONICS UK LIMITED,high,,step3
+Paramount,CMA case party,FP:paramount skydance corporation,VIACOM INTERNATIONAL MEDIA NETWORKS U.K. LIMITED,high,,step3
+Paramount Skydance Corporation,CMA case party,FP:paramount skydance corporation,VIACOM INTERNATIONAL MEDIA NETWORKS U.K. LIMITED,high,,step3
+"Prologis, L.P",CMA case party,FP:prologis inc,PROLOGIS GROUP HOLDINGS LIMITED,high,,step3
+Roche,job adverts (employer not in list),FP:roche holding ag,ROCHE PRODUCTS LIMITED,high,,step3
+Warner Bros,CMA case party,FP:skydance corporation,DISCOVERY CORPORATE SERVICES LIMITED,medium,,step3
+Warner Bros. Discovery,CMA case party,FP:skydance corporation,DISCOVERY CORPORATE SERVICES LIMITED,medium,,step3
+State Street,job adverts (employer not in list),FP:state street corporation,STATE STREET GLOBAL ADVISORS LIMITED,medium,,step3
+Sulzer,job adverts (employer not in list),FP:sulzer ag,SULZER PUMPS (UK) LIMITED,high,,step3
+SMBC,job adverts (employer not in list),FP:sumitomo mitsui banking corporation,SMBC LEASING (UK) LIMITED,medium,,step3
+Teledyne Technologies,job adverts (employer not in list),FP:teledyne technologies incorporated,TELEDYNE UK LIMITED,high,,step3
+Teleflex,CMA case party,FP:teleflex incorporated,TFX GROUP LIMITED,medium,,step3
+Teleflex Incorporated,CMA case party,FP:teleflex incorporated,TFX GROUP LIMITED,high,,step3
+Teva Pharmaceuticals,job adverts (employer not in list),FP:teva pharmaceuticals industries ltd,NORTON HEALTHCARE LIMITED,high,,step3
+Thermo Fisher Scientific,job adverts (employer not in list),FP:thermo fisher scientific inc,LIFE TECHNOLOGIES LIMITED,high,,step3
+ThermoFisher Scientific,job adverts (employer not in list),FP:thermo fisher scientific inc,LIFE TECHNOLOGIES LIMITED,high,,step3
+TP ICAP,job adverts (employer not in list),FP:tp icap group plc,TP ICAP GROUP SERVICES LIMITED,high,,step3
+Welltower,CMA case party,FP:welltower inc,HC-ONE LIMITED,high,,step3
+Welltower Inc,CMA case party,FP:welltower inc,HC-ONE LIMITED,high,,step3
+deutsche bank,job adverts (employer not in list),IE:deutsche bank,DEUTSCHE BANK AG,medium,,step3
+Klarna,job adverts (employer not in list),IE:klarna bank,KLARNA BANK AB,high,,step3
+Lockton,job adverts (employer not in list),IE:lockton re,LOCKTON RE CAPITAL MARKETS LIMITED,medium,,step3
+Maples Group,job adverts (employer not in list),IE:maples fund,MAPLES FUND MANAGEMENT IRELAND LIMITED,medium,,step3
+UnitedHealth Group,job adverts (employer not in list),IE:unitedhealthcare insurance,UNITEDHEALTHCARE INSURANCE DESIGNATED ACTIVITY COMPANY,medium,,step3
+Halfords,job adverts (name matches 2 groups),UK:00103161,HALFORDS LIMITED,medium,,step3
+SAINSBURY'S,job adverts (employer not in list),UK:00185647,SAINSBURY'S SUPERMARKETS LTD,high,,step3
+Bupa,job adverts (employer not in list),UK:00432511,BRITISH UNITED PROVIDENT ASSOCIATION LIMITED(THE),high,,step3
+Hsbc,job adverts (employer not in list),UK:00617987,HSBC UK BANK PLC,high,,step3
+McCormick,CMA case party,UK:00704955,MCCORMICK FOODS (U.K.) LIMITED,medium,,step3
+"McCormick & Company, Inc",CMA case party,UK:00704955,MCCORMICK FOODS (U.K.) LIMITED,high,,step3
+JN Bentley,job adverts (employer not in list),UK:01110949,MOTT MACDONALD LIMITED,high,,step3
+Intersurgical AG,CMA case party,UK:01488409,INTERSURGICAL LIMITED,high,,step3
+TK Elevator Topco GmbH,CMA case party,UK:01734279,TK ELEVATOR UK LIMITED,medium,,step3
+JD Sports,job adverts (employer not in list),UK:01888425,JD SPORTS FASHION PLC,high,,step3
+Hays,CMA case party,UK:02150950,HAYS SPECIALIST RECRUITMENT LIMITED,medium,,step3
+Wynnstay Group PLC,job adverts (employer not in list),UK:02704051,WYNNSTAY (AGRICULTURAL SUPPLIES) LIMITED,medium,,step3
+St. James's Place,job adverts (name matches 2 groups),UK:03183415,ST.JAMES'S PLACE MANAGEMENT SERVICES LIMITED,medium,,step3
+The Automobile Association,job adverts (employer not in list),UK:05149111,AUTOMOBILE ASSOCIATION DEVELOPMENTS LIMITED,medium,,step3
+Nucleus Group,job adverts (name matches 2 groups),UK:06033126,NUCLEUS GROUP SERVICES LIMITED,medium,,step3
+Plus500 Ltd,listed company,UK:07024970,PLUS500UK LTD,medium,,step3
+Greencore Group Plc,listed company,UK:07697229,GREENCORE FOOD TO GO LIMITED,high,,step3
+Checkout.com,job adverts (employer not in list),UK:08037323,CHECKOUT LTD,high,,step3
+Axalta,CMA case party,UK:08330148,U-POL LIMITED,medium,,step3
+MAG Manchester Airports Group,job adverts (employer not in list),UK:08353309,MANCHESTER AIRPORT PLC,high,,step3
+Stripe,job adverts (employer not in list),UK:08480771,STRIPE PAYMENTS UK LTD,medium,,step3
+Butlin's,job adverts (employer not in list),UK:08743573,BUTLINS SKYLINE LIMITED,high,,step3
+Ramsdens,CMA case party,UK:08811656,RAMSDENS FINANCIAL LIMITED,high,,step3
+Ramsdens Holdings PLC,CMA case party,UK:08811656,RAMSDENS FINANCIAL LIMITED,medium,,step3
+Lendable,job adverts (employer not in list),UK:09011579,LENDABLE OPERATIONS LTD,high,,step3
+Tide,job adverts (name matches 2 groups),UK:10366510,TIDE PLATFORM LTD,high,,step3
+Entain Plc,listed company,UK:11159638,LADBROKES BETTING & GAMING LIMITED,high,,step3
+Prudential UK Services,job adverts (name matches 2 groups),UK:11444019,PRUDENTIAL DISTRIBUTION LIMITED,medium,,step3
+Playtech Plc,listed company,UK:12807749,PLAYTECH SOFTWARE LIMITED,high,,step3
+Animal Friends,job adverts (employer not in list),UK:13626409,PINNACLE INSURANCE MANAGEMENT SERVICES LIMITED,high,,step3
+Seras,CMA case party,UK:13955627,SERAS ENERGY LTD,medium,,step3
+OCS Group International Limited,CMA case party,UK:14111894,OCS GROUP UK LIMITED,high,,step3
+OVO,CMA case party,UK:14443869,OVO ENERGY LTD,high,,step3
+Monzo,job adverts (employer not in list),UK:14785367,MONZO BANK LIMITED,medium,,step3
+M Group,job adverts (employer not in list),UK:15771848,BGEN LIMITED,high,,step3
+AAB,job adverts (employer not in list),UK:16544174,AAB BUSINESS & TAX ADVISORY LLP,high,,step3
+Macquarie Asset Management,CMA case party,UK:FC037906,MACQUARIE ASSET MANAGEMENT HOLDINGS PTY LIMITED (UK BRANCH),low,,step3
+Your Housing Group,job adverts (name matches 2 groups),UK:IP030666,YOUR HOUSING GROUP LIMITED,medium,,step3
+Aib Group Plc,listed company,UK:NI018800,AIB GROUP (UK) P.L.C.,medium,,step3
+Baringa,job adverts (employer not in list),UK:OC303471,BARINGA PARTNERS LLP,high,,step3
+Grant Thornton,job adverts (employer not in list),UK:OC307863,GRANT THORNTON SERVICES LLP,high,,step3
+KPMG,job adverts (name matches 2 groups),UK:OC450748,KPMG LLP,medium,,step3
+Amplius,job adverts (employer not in list),UK:RS007853,AMPLIUS LIVING,high,,step3
+BSI Group,job adverts (employer not in list),UK:ZC000202,BSI ASSURANCE UK LIMITED,high,,step3
+83zero Limited,job adverts (employer not in list),none,,,,step3
+ABP,CMA case party,none,,,,step3
+ABP Food Group Unlimited,CMA case party,none,,,,step3
+Actica Consulting,job adverts (employer not in list),none,,,,step3
+Airwallex,job adverts (employer not in list),none,,,,step3
+Anson Mccade,job adverts (employer not in list),none,,,,step3
+Aria Care,CMA case party,none,,,,step3
+Aseana Properties Limited,listed company,none,,,,step3
+Aspora,job adverts (employer not in list),none,,,,step3
+Austin Rose Associates Limited,job adverts (employer not in list),none,,,,step3
+BAM UK & Ireland,job adverts (employer not in list),none,,,,step3
+Bjak,job adverts (employer not in list),none,,,,step3
+Bloomberg,job adverts (employer not in list),none,,,,step3
+British Steel,job adverts (employer not in list),none,,high,,step3
+CFGI,job adverts (employer not in list),none,,,,step3
+CRH,CMA case party,none,,,,step3
+CRH (UK) Limited,CMA case party,none,,,,step3
+CWA,job adverts (employer not in list),none,,,,step3
+CWA: Civil Works Alliance,job adverts (employer not in list),none,,,,step3
+Caged Tigers South,job adverts (employer not in list),none,,,,step3
+Canal+ S.A,listed company,none,,high,,step3
+Capco,job adverts (employer not in list),none,,,,step3
+Capital Group,job adverts (employer not in list),none,,high,,step3
+Celeros Flow Technology,job adverts (employer not in list),none,,,,step3
+Certain Advantage,job adverts (employer not in list),none,,,,step3
+Co-op Insurance,job adverts (employer not in list),none,,,,step3
+Coca-Cola Hbc Ag,listed company,none,,medium,,step3
+Cochlear,job adverts (employer not in list),none,,,,step3
+Complii,job adverts (employer not in list),none,,,,step3
+Conrad Consulting Ltd,job adverts (employer not in list),none,,,,step3
+Corriculo Ltd,job adverts (employer not in list),none,,,,step3
+DF Capital,job adverts (employer not in list),none,,high,,step3
+Daily Mail and General Trust plc,CMA case party,none,,,,step3
+Danforth Care,CMA case party,none,,,,step3
+DarcyBrook Ltd,job adverts (employer not in list),none,,,,step3
+Deliveroo,job adverts (employer not in list),none,,,,step3
+Dfi Retail Group Holdings Limited,listed company,none,,,,step3
+Dragados UK & Ireland,job adverts (employer not in list),none,,,,step3
+Drnewitt,job adverts (employer not in list),none,,,,step3
+Dynamo AI,job adverts (employer not in list),none,,,,step3
+Elix Sourcing Solutions Limited,job adverts (employer not in list),none,,,,step3
+Emplyfy,job adverts (employer not in list),none,,,,step3
+Era4,job adverts (employer not in list),none,,,,step3
+Evoke Plc,listed company,none,,,,step3
+Extra Detail Limited,CMA case party,none,,,,step3
+Field,job adverts (employer not in list),none,,medium,,step3
+FindCore,job adverts (employer not in list),none,,,,step3
+Finsbury Food Group,job adverts (employer not in list),none,,,,step3
+Fmk consulting,job adverts (employer not in list),none,,,,step3
+G MASS,job adverts (employer not in list),none,,,,step3
+G MASS Consulting,job adverts (employer not in list),none,,,,step3
+G.I. Hadfield & Son Limited,CMA case party,none,,,,step3
+GIST Research,job adverts (employer not in list),none,,high,,step3
+Gibson,CMA case party,none,,,,step3
+Gibson (Banbridge) Limited,CMA case party,none,,,,step3
+Gibson Bros (Ireland) Limited,CMA case party,none,,,,step3
+Gibson Bros Limited,CMA case party,none,,,,step3
+Gibson Quarries (Banbridge) Limited,CMA case party,none,,,,step3
+Goodman Masson,job adverts (employer not in list),none,,,,step3
+Greystar Management Services,job adverts (employer not in list),none,,high,,step3
+Gstechnologies Ltd,listed company,none,,,,step3
+Gulf Keystone Petroleum Ltd,listed company,none,,high,,step3
+Hansard Global Plc,listed company,none,,,,step3
+Healthcare Ireland,CMA case party,none,,,,step3
+High Finance (UK) Limited T/A HFG,job adverts (employer not in list),none,,,,step3
+Hong Kong Land Holdings Ld,listed company,none,,,,step3
+Hornblower,job adverts (employer not in list),none,,,,step3
+Huel,CMA case party,none,,,,step3
+Huel Limited,CMA case party,none,,,,step3
+Hutchinson Homes,CMA case party,none,,high,,step3
+Hutchinson Homes Limited,CMA case party,none,,high,,step3
+Huxley Associates,job adverts (employer not in list),none,,,,step3
+IDEX,job adverts (employer not in list),none,,high,,step3
+IRE,job adverts (employer not in list),none,,,,step3
+Icfg Limited,listed company,none,,,,step3
+Iforex Financial Trading Holdings Ltd.,listed company,none,,,,step3
+Incite Insight,job adverts (employer not in list),none,,,,step3
+InfraVia,CMA case party,none,,,,step3
+Intelance,job adverts (employer not in list),none,,,,step3
+Intercontinental Exchange ,job adverts (employer not in list),none,,,,step3
+Investacc Group Limited,listed company,none,,,,step3
+Invitise Ltd,job adverts (employer not in list),none,,,,step3
+JD.com,job adverts (employer not in list),none,,,,step3
+Jardine Matheson Holdings Ld,listed company,none,,,,step3
+KFC,job adverts (employer not in list),none,,,,step3
+Kingston Centre For Independent Living,job adverts (employer not in list),none,,,,step3
+Kr1 Plc,listed company,none,,,,step3
+LB Group,CMA case party,none,,,,step3
+"LB Group Co., Ltd",CMA case party,none,,,,step3
+LDC,CMA case party,none,,medium,,step3
+LGPS Central,job adverts (employer not in list),none,,,,step3
+Linesight,job adverts (employer not in list),none,,,,step3
+M P Coleman Limited,CMA case party,none,,medium,,step3
+MERJE Ltd,job adverts (employer not in list),none,,,,step3
+MMS,job adverts (employer not in list),none,,,,step3
+Malibu Life Holdings Limited,listed company,none,,,,step3
+Millington,CMA case party,none,,,,step3
+Millington Travel,CMA case party,none,,medium,,step3
+Morgan McKinley,job adverts (employer not in list),none,,,,step3
+NRG Fleet Services,CMA case party,none,,medium,,step3
+Nationwide,job adverts (employer not in list),none,,medium,,step3
+Navy Command,job adverts (employer not in list),none,,,,step3
+Nova Wealth,job adverts (employer not in list),none,,,,step3
+Nscale,job adverts (employer not in list),none,,,,step3
+OakNorth,job adverts (employer not in list),none,,,,step3
+OneSchool Global,job adverts (employer not in list),none,,,,step3
+OpenPayd,job adverts (employer not in list),none,,,,step3
+PSR Solutions,job adverts (employer not in list),none,,,,step3
+Panoramic Associates,job adverts (employer not in list),none,,,,step3
+Peoplesafe,CMA case party,none,,high,,step3
+Peoplesafe Inc,CMA case party,none,,medium,,step3
+Petra Diamonds Limited,listed company,none,,high,,step3
+PlatformX Communications Limited,CMA case party,none,,,,step3
+Pliant,job adverts (employer not in list),none,,,,step3
+Polka Dot Travel Limited,CMA case party,none,,medium,,step3
+Prevail,job adverts (employer not in list),none,,,,step3
+Propel Holdings Career,job adverts (employer not in list),none,,,,step3
+Quality Technology Services,job adverts (employer not in list),none,,medium,,step3
+"Quality Technology Services, LLC",job adverts (employer not in list),none,,high,,step3
+RSA / More Than,job adverts (employer not in list),none,,high,,step3
+Rhi Magnesita N.V.,listed company,none,,,,step3
+Rippling,job adverts (employer not in list),none,,,,step3
+SGN Your gas. Our network.,job adverts (employer not in list),none,,medium,,step3
+Send for Help Limited,CMA case party,none,,high,,step3
+Sidetrade,job adverts (employer not in list),none,,,,step3
+Sizewell C,job adverts (employer not in list),none,,high,,step3
+Skillsbay Ltd,job adverts (employer not in list),none,,,,step3
+Société LDC SA,CMA case party,none,,,,step3
+SoloProtect,CMA case party,none,,,,step3
+SoloProtect Limited,CMA case party,none,,,,step3
+Specialist Fleet Services,CMA case party,none,,medium,,step3
+Sphere Solutions,job adverts (employer not in list),none,,,,step3
+Spinwell Global,job adverts (employer not in list),none,,,,step3
+Substantial,CMA case party,none,,,,step3
+Suzano,CMA case party,none,,,,step3
+Symphony International Holdings Ld,listed company,none,,high,,step3
+T.H.Moore (Contracts) Limited,CMA case party,none,,high,,step3
+TalkTalk,CMA case party,none,,,,step3
+TalkTalk Telecommunications Limited,CMA case party,none,,,,step3
+Teya,job adverts (employer not in list),none,,,,step3
+The Curve Group,job adverts (employer not in list),none,,medium,,step3
+The Independent Travel Company Limited,CMA case party,none,,medium,,step3
+The Magnum Ice Cream Company N.V.,listed company,none,,,,step3
+The Orpheus Centre,job adverts (employer not in list),none,,,,step3
+Theramex,job adverts (employer not in list),none,,,,step3
+Twinings Ovaltine,job adverts (employer not in list),none,,,,step3
+Venator Materials UK Limited,CMA case party,none,,high,,step3
+Venator UK,CMA case party,none,,,,step3
+Vivisol,CMA case party,none,,,,step3
+W.A.G Payment Solutions Plc,listed company,none,,,,step3
+Worldwide Clinical Trials,job adverts (employer not in list),none,,,,step3
+Y3 Holdings Limited,CMA case party,none,,,,step3
+Yadimen Consulting Limited,job adverts (employer not in list),none,,high,,step3
+bajajfinserv,job adverts (employer not in list),none,,,,step3
+iFAST Global Bank Ltd,job adverts (employer not in list),none,,,,step3
+idfc first bank,job adverts (employer not in list),none,,high,,step3
+mahindragroup,job adverts (employer not in list),none,,,,step3
+nexfibre,CMA case party,none,,,,step3
+4Recruitment Services ,job adverts (employer not in list),recruiter,,high,,step3
+Advanced Resource Managers Ltd,job adverts (employer not in list),recruiter,,high,,step3
+Appcast Enterprise,job adverts (employer not in list),recruiter,,high,,step3
+Aspect Resources,job adverts (employer not in list),recruiter,,medium,,step3
+Carbon 60,job adverts (employer not in list),recruiter,,high,,step3
+Cedar,job adverts (employer not in list),recruiter,,medium,,step3
+Escape,job adverts (employer not in list),recruiter,,medium,,step3
+Executive Network Group,job adverts (employer not in list),recruiter,,medium,,step3
+Finegreen,job adverts (employer not in list),recruiter,,high,,step3
+GCS,job adverts (employer not in list),recruiter,,medium,,step3
+Irwin & Colton,job adverts (employer not in list),recruiter,,medium,,step3
+McGregor Boyall,job adverts (employer not in list),recruiter,,high,,step3
+No1 Legal and Professional,job adverts (employer not in list),recruiter,,medium,,step3
+Pontoon,job adverts (employer not in list),recruiter,,high,,step3
+Rullion Engineering Cumbria,job adverts (employer not in list),recruiter,,high,,step3
+SF Partners,job adverts (employer not in list),recruiter,,medium,,step3
+Sanderson ,job adverts (employer not in list),recruiter,,medium,,step3
+Sanderson Government and Defence,job adverts (employer not in list),recruiter,,high,,step3
+Serve,job adverts (employer not in list),recruiter,,medium,,step3
+Square One Resources,job adverts (employer not in list),recruiter,,high,,step3
+Stride Resource Management,job adverts (employer not in list),recruiter,,medium,,step3
+Tec Partners Limited,job adverts (employer not in list),recruiter,,high,,step3
+UBT,job adverts (employer not in list),recruiter,,medium,,step3
+Carmichael UK,job adverts (employer not in list),unsure,,low,,step3
+Castle Trust Bank,job adverts (employer not in list),unsure,,low,,step3
+Circle Group,job adverts (employer not in list),unsure,,low,,step3
+Operations,job adverts (employer not in list),unsure,,medium,,step3
+UPP,job adverts (employer not in list),unsure,,medium,,step3
+ey,job adverts (employer not in list),unsure,,medium,,step3
+Orbit Group,job adverts (name matches 2 groups),UK:IP28503R,ORBIT GROUP LIMITED,medium,,step7
+Owen Daniels ,job adverts (employer not in list),none,,,,step7
+Advent,news stories,FP:advent international l p,"Advent International, L.P.",high,,stage2
+Allianz,news stories,FP:allianz se,Allianz Se,high,,stage2
+Google Cloud,news stories,FP:alphabet inc,"Alphabet, Inc.",high,,stage2
+Google Ireland,news stories,FP:alphabet inc,"Alphabet, Inc.",high,,stage2
+Apollo,news stories,FP:apollo global management inc,"Apollo Global Management, Inc.",high,,stage2
+Ares,news stories,FP:ares management corporation,Ares Management Corporation,medium,,stage2
+HID,news stories,FP:assa abloy ab,Assa Abloy Ab,high,,stage2
+TSB,news stories,FP:banco santander s a,"Banco Santander, S.A",medium,,stage2
+Beazley,news stories,FP:beazley ireland holdings plc,Beazley Ireland Holdings Plc,medium,,stage2
+Cardo Group,news stories,FP:bp inv6 topco ltd,CARDO (SOUTH) LIMITED,high,,stage2
+BPCE,news stories,FP:bpce equipment solutions sas,Bpce Equipment Solutions Sas,medium,,stage2
+Ithaca,news stories,FP:delek group ltd,Delek Group Ltd,medium,,stage2
+S&W,news stories,FP:earps topco ltd,S&W PARTNERS SERVICES LIMITED,medium,,stage2
+EQT,news stories,FP:eqt ab,Eqt Ab,medium,,stage2
+Evonik,news stories,FP:evonik industries ag,Evonik Industries Ag,high,,stage2
+Exxon Mobil,news stories,FP:exxon mobil corporation,Exxon Mobil Corporation,high,,stage2
+Phase Eight,news stories,FP:foschini group ltd,The Foschini Group Limited,high,,stage2
+GE Aerospace,news stories,FP:general electric company,General Electric Company,high,,stage2
+Intel,news stories,FP:intel corporation,Intel Corporation,high,,stage2
+Meta,news stories,FP:meta platforms inc,"Meta Platforms, Inc. ",high,,stage2
+Orange,news stories,FP:orange s a,Orange S.A.,high,,stage2
+Paramount Skydance,news stories,FP:paramount skydance corporation,Paramount Skydance Corporation,high,,stage2
+RWE,news stories,FP:rwe ag,Rwe Ag,high,,stage2
+WBD,news stories,FP:skydance corporation,Skydance Corporation,medium,,stage2
+TDK,news stories,FP:tdk lambda corporation,Tdk-Lambda Corporation,medium,,stage2
+Uber,news stories,FP:uber technologies inc,"Uber Technologies, Inc.",high,,stage2
+Vattenfall,news stories,FP:vattenfall ab,Vattenfall Ab,high,,stage2
+Vertiv,news stories,FP:vertiv group corporation,Vertiv Group Corporation,high,,stage2
+CDD Automation Solutions,news stories,FP:vinci s a,Vinci S.A.,medium,,stage2
+Vinci Energies,news stories,FP:vinci s a,Vinci S.A.,high,,stage2
+Wendy's,news stories,FP:wendys international llc,"Wendy's International, Llc",high,,stage2
+WSP Global,news stories,FP:wsp group holding ab,Wsp Group Holding Ab,high,,stage2
+Zurich,news stories,FP:zurich insurance group ag,Zurich Insurance Group Ag,high,,stage2
+Bain Capital,news stories,IE:bain capital,BAIN CAPITAL INVESTMENTS (IRELAND) LIMITED,high,,stage2
+BAWAG PSK,news stories,IE:bawag p,BAWAG P.S.K. Bank fur Arbeit und Wirtschaft und Osterreichische Postsparkasse Aktiengesellschaft,high,,stage2
+Coinbase,news stories,IE:coinbase,COINBASE IRELAND LIMITED,high,,stage2
+Goodbody,news stories,IE:goodbody stockbrokers,GOODBODY STOCKBROKERS UNLIMITED COMPANY,high,,stage2
+Universal Investment,news stories,IE:universal investment,Universal-Investment Ireland Fund Management LIMITED,high,,stage2
+AA,news stories,SOLO:FRN-572212,AA Underwriting Insurance Company Limited,medium,,stage2
+Ryanair,news stories,SOLO:GPG-17152,Ryanair ltd,medium,,stage2
+H&H Land & Estates,news stories,UK:00036006,H&H GROUP PLC,medium,,stage2
+Carr's Billington,news stories,UK:00059883,EDWARD BILLINGTON AND SON LIMITED,high,,stage2
+Primark,news stories,UK:00293262,ASSOCIATED BRITISH FOODS PLC,high,,stage2
+Smith & Nephew Medical Ltd,news stories,UK:00324357,SMITH & NEPHEW PLC,high,,stage2
+The Rix Group,news stories,UK:00577587,J.R. RIX & SONS LIMITED,high,,stage2
+Derby County,news stories,UK:00819793,CLOWES DEVELOPMENTS (UK) LIMITED,medium,,stage2
+H&M,news stories,UK:01413450,H&M HENNES & MAURITZ UK LIMITED,medium,,stage2
+MP Evans Group PLC,news stories,UK:01555042,M.P. EVANS GROUP PLC,high,,stage2
+Screwfix,news stories,UK:01664812,KINGFISHER PLC,high,,stage2
+Vodafone Ireland,news stories,UK:01833679,VODAFONE GROUP PUBLIC LIMITED COMPANY,high,,stage2
+VodafoneThree,news stories,UK:01833679,VODAFONE GROUP PUBLIC LIMITED COMPANY,high,,stage2
+Tata Motors,news stories,UK:02016440,TATA TECHNOLOGIES EUROPE LIMITED,medium,,stage2
+Capita,news stories,UK:02081330,CAPITA PLC,high,,stage2
+Aviva Investors,news stories,UK:02468686,AVIVA PLC,high,,stage2
+National Express West Midlands,news stories,UK:02590560,MOBICO GROUP PLC,high,,stage2
+Brakspear,news stories,UK:02807044,M.A.T. DAVIES HOLDINGS LIMITED,medium,,stage2
+Starbucks,news stories,UK:02959325,STARBUCKS COFFEE COMPANY (UK) LIMITED,medium,,stage2
+Transport for London,news stories,UK:03914810,TRANSPORT TRADING LIMITED,high,,stage2
+Hull City,news stories,UK:04032392,HULL CITY TIGERS LIMITED,high,,stage2
+National Air Traffic Services (Nats),news stories,UK:04138218,NATS HOLDINGS LIMITED,high,,stage2
+"Nats, the National Air Traffic Service",news stories,UK:04138218,NATS HOLDINGS LIMITED,high,,stage2
+Arsenal,news stories,UK:04250459,ARSENAL HOLDINGS LIMITED,high,,stage2
+Shell,news stories,UK:04366849,SHELL PLC,high,,stage2
+Landsec,news stories,UK:04369054,LAND SECURITIES GROUP PLC,high,,stage2
+Halford Commercial Fleet Services Limited,news stories,UK:04457314,HALFORDS GROUP PLC,high,,stage2
+Leicester City,news stories,UK:04593477,LEICESTER CITY FOOTBALL CLUB LIMITED,high,,stage2
+Clear Group,news stories,UK:05294390,CLEAR INVESTMENTS (UK) LIMITED,medium,,stage2
+AO,news stories,UK:05525751,AO WORLD PLC,high,,stage2
+Thames Water,news stories,UK:05819262,KEMBLE WATER HOLDINGS LIMITED,high,,stage2
+Anglian Water,news stories,UK:05915869,ANGLIAN WATER SERVICES LIMITED,high,,stage2
+Permira,news stories,UK:05983113,PERMIRA ADVISERS HOLDINGS LIMITED,medium,,stage2
+Boots Opticians,news stories,UK:06166738,WBA INTERNATIONAL LIMITED,high,,stage2
+Ineos,news stories,UK:06959146,INEOS INDUSTRIES LIMITED,medium,,stage2
+Sheffield United,news stories,UK:06963761,BLADES LEISURE LIMITED,high,,stage2
+Essar Group,news stories,UK:07071400,ESSAR OIL (UK) LIMITED,high,,stage2
+SGN Retail,news stories,UK:07071400,ESSAR OIL (UK) LIMITED,medium,,stage2
+EnQuest,news stories,UK:07140891,ENQUEST PLC,high,,stage2
+Wrexham,news stories,UK:07698872,WREXHAM AFC LIMITED,high,,stage2
+East Midlands,news stories,UK:08353309,MANCHESTER AIRPORTS HOLDINGS LIMITED,high,,stage2
+East Midlands Airport,news stories,UK:08353309,MANCHESTER AIRPORTS HOLDINGS LIMITED,high,,stage2
+London Stansted Airport,news stories,UK:08353309,MANCHESTER AIRPORTS HOLDINGS LIMITED,high,,stage2
+Manchester Airport Group (Mag),news stories,UK:08353309,MANCHESTER AIRPORTS HOLDINGS LIMITED,high,,stage2
+Manchester Airports Group (MAG),news stories,UK:08353309,MANCHESTER AIRPORTS HOLDINGS LIMITED,high,,stage2
+Manchester City,news stories,UK:08355862,CITY FOOTBALL GROUP LIMITED,high,,stage2
+Baker & Baker,news stories,UK:08552272,MILL UK HOLDINGS 3 LIMITED,high,,stage2
+Greystar,news stories,UK:08741469,GREYSTAR EUROPE HOLDINGS LTD,high,,stage2
+Bristol City Council,news stories,UK:09485669,BRISTOL HOLDING LIMITED,medium,,stage2
+Virgin Money,news stories,UK:09595911,VIRGIN MONEY UK LIMITED,medium,,stage2
+SoftBank,news stories,UK:10185006,GRAPHCORE LIMITED,medium,,stage2
+SoftBank Group,news stories,UK:10185006,GRAPHCORE LIMITED,medium,,stage2
+Waterland,news stories,UK:10574749,WATERLAND PRIVATE EQUITY LTD,high,,stage2
+Baring International Investment Ltd,news stories,UK:10801931,BARINGS EUROPE LIMITED,medium,,stage2
+West Midlands Combined Authority,news stories,UK:10932342,MIDLAND METRO LIMITED,medium,,stage2
+PureGym,news stories,UK:11038720,PURE GYM LIMITED,high,,stage2
+Knights,news stories,UK:11290101,KNIGHTS GROUP HOLDINGS PLC,high,,stage2
+Boohoo,news stories,UK:11941376,DEBENHAMS GROUP HOLDINGS LIMITED,high,,stage2
+Majestic Wine,news stories,UK:12132229,MAJESTIC WINE WAREHOUSES LIMITED,high,,stage2
+Car Care Plan (CCP),news stories,UK:12352186,ANV INTERMEDIARIES LIMITED,medium,,stage2
+SOCOTEC UK & Ireland,news stories,UK:12361738,PHOENIX UK 2020 LIMITED,high,,stage2
+Newcastle United,news stories,UK:12415316,NCUK INVESTMENT LIMITED,high,,stage2
+Giacom,news stories,UK:12987863,GIACOM (COMMUNICATIONS) LIMITED,medium,,stage2
+Morrisons,news stories,UK:13537349,WM MORRISON SUPERMARKETS LIMITED,high,,stage2
+HCRG Care Group,news stories,UK:13758893,T20 PIONEER HOLDINGS LIMITED,high,,stage2
+Southampton,news stories,UK:13789278,SPORT REPUBLIC HOLDING LTD.,high,,stage2
+Chelsea,news stories,UK:14075518,CHELSEA FOOTBALL CLUB LIMITED,high,,stage2
+OCS Group Topco Ltd,news stories,UK:14111894,OCS GROUP UK LIMITED,medium,,stage2
+United Infrastructure,news stories,UK:14888602,UNITED INFRASTRUCTURE LIMITED,high,,stage2
+Everton,news stories,UK:15992615,ROUNDHOUSE CAPITAL HOLDINGS LIMITED,high,,stage2
+Southern Water,news stories,UK:16482350,SANDSTONE WATER HOLDINGS LIMITED,high,,stage2
+UK Power Networks,news stories,UK:17029164,ENGIE UK 2026 LIMITED,medium,,stage2
+Intesa Sanpaolo,news stories,UK:BR000036,INTESA SANPAOLO S.P.A,high,,stage2
+Stonegate,news stories,UK:BR014816,STONEGATE PUB COMPANY LIMITED,high,,stage2
+PayPal,news stories,UK:BR022982,"PAYPAL LIMITED, UK BRANCH",medium,,stage2
+Commerzbank,news stories,UK:FC008139,COMMERZBANK AKTIENGESELLSCHAFT,medium,,stage2
+First Abu Dhabi Bank,news stories,UK:FC009142,FIRST ABU DHABI BANK P.J.S.C.,high,,stage2
+Crédit Agricole,news stories,UK:FC012270,CREDIT AGRICOLE S.A.,high,,stage2
+East of England Co-op,news stories,UK:IP01099R,EAST OF ENGLAND CO-OPERATIVE SOCIETY LIMITED,high,,stage2
+Southern Co-op,news stories,UK:IP01591R,THE SOUTHERN CO-OPERATIVE LIMITED,high,,stage2
+Hedyn,news stories,UK:IP30192R,TAI HEDYN LIMITED,high,,stage2
+Scanlans Property Management LLP,news stories,UK:OC346661,SPL PROPERTY MANAGEMENT LLP,medium,,stage2
+Blackstone,news stories,UK:OC352581,BLACKSTONE EUROPE LLP,medium,,stage2
+"Weil, Gotshal & Manges",news stories,UK:OC400678,"WEIL, GOTSHAL & MANGES (LONDON) LLP",high,,stage2
+Celtic,news stories,UK:SC003487,CELTIC PLC,high,,stage2
+Lloyds,news stories,UK:SC095000,LLOYDS BANKING GROUP PLC,high,,stage2
+Stirling Council,news stories,UK:SC298585,ACTIVE STIRLING LIMITED,medium,,stage2
+BrewDog,news stories,UK:SC311560,BREWDOG PLC,high,,stage2
+Rangers,news stories,UK:SC437060,RANGERS INTERNATIONAL FOOTBALL CLUB LIMITED,high,,stage2
+HW Fisher,news stories,UK:SL035857,TOSCA PENTA ACCOUNTANTS LIMITED PARTNERSHIP,medium,,stage2
+21CC Group,news stories,none,,,,stage2
+23andMe,news stories,none,,,,stage2
+7 Towers Scaffolding Limited,news stories,none,,,,stage2
+786mahbub Limited,news stories,none,,,,stage2
+A7,news stories,none,,,,stage2
+A7 Network,news stories,none,,high,,stage2
+ABO Energy,news stories,none,,high,,stage2
+AJ Riley Landscapes and Building Limited,news stories,none,,medium,,stage2
+AP Moller Capital,news stories,none,,high,,stage2
+Accel-KKR,news stories,none,,,,stage2
+Admiral Taverns,news stories,none,,high,,stage2
+Advanced Micro Devices,news stories,none,,high,,stage2
+AerFin,news stories,none,,,,stage2
+Aermont,news stories,none,,,,stage2
+Agri-Lloyd,news stories,none,,high,,stage2
+Ahold Delhaize,news stories,none,,,,stage2
+Ajaib,news stories,none,,,,stage2
+Al Taawoun,news stories,none,,,,stage2
+Alan Simons & Co,news stories,none,,,,stage2
+Albert Heijn,news stories,none,,,,stage2
+Albertsons,news stories,none,,,,stage2
+Alfa Laval,news stories,none,,,,stage2
+All3Media,news stories,none,,,,stage2
+Altibian Supermarket,news stories,none,,,,stage2
+Amazon Leo,news stories,none,,,,stage2
+Ambassador Cruise Line,news stories,none,,high,,stage2
+Amplitude,news stories,none,,,,stage2
+Animoca Brands,news stories,none,,high,,stage2
+Anthropic,news stories,none,,,,stage2
+Anza Power,news stories,none,,,,stage2
+Appledorn Developments,news stories,none,,high,,stage2
+Appledorn Developments Limited,news stories,none,,high,,stage2
+Appliances Direct,news stories,none,,,,stage2
+Aramco,news stories,none,,,,stage2
+Ardmore Group,news stories,none,,,,stage2
+Argentine Football Association,news stories,none,,high,,stage2
+Armstrong Bell,news stories,none,,high,,stage2
+Art of Cloud,news stories,none,,,,stage2
+Ascendis Group,news stories,none,,,,stage2
+Australian Border Force,news stories,none,,high,,stage2
+Autobuses de Leon,news stories,none,,,,stage2
+Autobuses de Leon SL,news stories,none,,,,stage2
+Avamore Limited,news stories,none,,high,,stage2
+Avanti West Coast,news stories,none,,high,,stage2
+Avocet Bidco Ltd,news stories,none,,,,stage2
+Axe Compute,news stories,none,,,,stage2
+Ayrmid,news stories,none,,,,stage2
+B&O Developers Ltd,news stories,none,,high,,stage2
+BW ESS,news stories,none,,,,stage2
+Baghdad airport,news stories,none,,,,stage2
+Banco BPM,news stories,none,,,,stage2
+Banijay Entertainment,news stories,none,,,,stage2
+Banque Misr,news stories,none,,,,stage2
+Barakah Retail,news stories,none,,,,stage2
+Barcelona,news stories,none,,,,stage2
+Barings,news stories,none,,,,stage2
+Barnes Aerospace,news stories,none,,,,stage2
+Basket.TV,news stories,none,,,,stage2
+Bath City,news stories,none,,,,stage2
+Bath City Holding Company,news stories,none,,,,stage2
+BayWa r.e.,news stories,none,,high,,stage2
+Beacon CRM,news stories,none,,,,stage2
+Beefeater,news stories,none,,,,stage2
+Berentzen,news stories,none,,,,stage2
+Betdaq,news stories,none,,,,stage2
+Binance,news stories,none,,,,stage2
+Biscayne ST LLC,news stories,none,,,,stage2
+BitBank,news stories,none,,high,,stage2
+BitGo,news stories,none,,,,stage2
+BlueFive Capital,news stories,none,,high,,stage2
+Bluefin Bidco Ltd,news stories,none,,,,stage2
+Bodycote,news stories,none,,,,stage2
+Bodycote Group,news stories,none,,,,stage2
+Bon Secours Mercy Health,news stories,none,,,,stage2
+Boom Marketing,news stories,none,,,,stage2
+Bradbury Bidco Limited,news stories,none,,,,stage2
+Brisbane Airport,news stories,none,,,,stage2
+Bromley,news stories,none,,high,,stage2
+"Bureau of Alcohol, Tobacco, Firearms and Explosives",news stories,none,,high,,stage2
+C Watkins Plumbing Limited,news stories,none,,,,stage2
+C2i Semiconductors,news stories,none,,high,,stage2
+CLA Trust & Legacy Planning,news stories,none,,,,stage2
+CVC DIF,news stories,none,,,,stage2
+Cadarn Capital,news stories,none,,high,,stage2
+Cadeler,news stories,none,,,,stage2
+Camogie Association,news stories,none,,,,stage2
+CandidateGo,news stories,none,,,,stage2
+Canford Group,news stories,none,,,,stage2
+Capacity LLC,news stories,none,,,,stage2
+Capcom,news stories,none,,,,stage2
+Capital Dynamics,news stories,none,,high,,stage2
+Capitolis,news stories,none,,,,stage2
+Capricorn Energy,news stories,none,,high,,stage2
+Capricorn Energy PLC,news stories,none,,high,,stage2
+Cardiff Council,news stories,none,,medium,,stage2
+Carrefour,news stories,none,,high,,stage2
+Castore,news stories,none,,,,stage2
+Ceconomy,news stories,none,,,,stage2
+Central Asia Metals,news stories,none,,,,stage2
+Central Asia Metals PLC,news stories,none,,,,stage2
+Challenger,news stories,none,,,,stage2
+Cipher Medical,news stories,none,,,,stage2
+Circle,news stories,none,,high,,stage2
+Circle8,news stories,none,,,,stage2
+Cirsa,news stories,none,,,,stage2
+Clackmannanshire Council,news stories,none,,,,stage2
+Claros,news stories,none,,,,stage2
+"Claros, Inc.",news stories,none,,,,stage2
+Clearlake Capital,news stories,none,,high,,stage2
+Clerky,news stories,none,,,,stage2
+Cliftonville,news stories,none,,high,,stage2
+Cobblers,news stories,none,,,,stage2
+Coin Nomad Exchange,news stories,none,,,,stage2
+Coleman Industrial Construction,news stories,none,,high,,stage2
+Conduent,news stories,none,,,,stage2
+Consolidated Precision Products,news stories,none,,high,,stage2
+Coop,news stories,none,,high,,stage2
+Cooperative U,news stories,none,,high,,stage2
+Copenhagen Infrastructure Partners,news stories,none,,high,,stage2
+Copenhagen Infrastructure V,news stories,none,,,,stage2
+Core Fulfilment,news stories,none,,,,stage2
+Correct Contract Services,news stories,none,,medium,,stage2
+Cotswold Rainwater Services,news stories,none,,high,,stage2
+Crest Swim School,news stories,none,,,,stage2
+Crime Stoppers,news stories,none,,,,stage2
+CrossCountry,news stories,none,,,,stage2
+CrossCountry Trains,news stories,none,,,,stage2
+Crugan Holiday Park,news stories,none,,,,stage2
+Cryptomus,news stories,none,,,,stage2
+Cuban Sandwich Factory,news stories,none,,,,stage2
+Currenc Group,news stories,none,,high,,stage2
+Cursor,news stories,none,,,,stage2
+Cygnus Metals Ltd,news stories,none,,,,stage2
+DJH,news stories,none,,,,stage2
+DNO,news stories,none,,,,stage2
+DNO ASA,news stories,none,,,,stage2
+DNO Bidco AS,news stories,none,,,,stage2
+DPD,news stories,none,,,,stage2
+Daiichi Kosho,news stories,none,,,,stage2
+Daiichi Life,news stories,none,,,,stage2
+Dallas McMillan,news stories,none,,,,stage2
+Dalziel Ventures Ltd,news stories,none,,medium,,stage2
+Dark Peak Analytics,news stories,none,,,,stage2
+David Brown Defence,news stories,none,,,,stage2
+David Samuel Properties,news stories,none,,high,,stage2
+Deako,news stories,none,,,,stage2
+Delhaize,news stories,none,,,,stage2
+Delivery Hero,news stories,none,,high,,stage2
+Dera,news stories,none,,high,,stage2
+Deutsche Telekom,news stories,none,,,,stage2
+Dominion,news stories,none,,high,,stage2
+Dominion Energy,news stories,none,,high,,stage2
+Doncaster Sheffield Airport,news stories,none,,high,,stage2
+Dootsons,news stories,none,,,,stage2
+Dragon Wealth,news stories,none,,,,stage2
+DriveWealth,news stories,none,,high,,stage2
+Dunedin Advisory,news stories,none,,,,stage2
+Duni Poppies Limited,news stories,none,,,,stage2
+Dwello Property,news stories,none,,,,stage2
+Dyfed-Powys Police,news stories,none,,,,stage2
+E H Hassell & Sons Limited,news stories,none,,,,stage2
+E M Accountancy,news stories,none,,high,,stage2
+EET Retail,news stories,none,,medium,,stage2
+EFS Systems,news stories,none,,medium,,stage2
+ESMS Junior School,news stories,none,,,,stage2
+EVA,news stories,none,,medium,,stage2
+EWE,news stories,none,,,,stage2
+East Lavington Parish Council,news stories,none,,,,stage2
+East Suffolk and North Essex NHS Foundation Trust,news stories,none,,,,stage2
+Econergy Ltd,news stories,none,,,,stage2
+Eden Renewables,news stories,none,,,,stage2
+Eftsure,news stories,none,,,,stage2
+Elderly Aids Limited,news stories,none,,,,stage2
+Eleco PLC,news stories,none,,high,,stage2
+Elgin,news stories,none,,high,,stage2
+Ember Infrastructure Management,news stories,none,,high,,stage2
+Enel,news stories,none,,high,,stage2
+Enel Green Power North America,news stories,none,,high,,stage2
+Enviromena,news stories,none,,high,,stage2
+Epiris,news stories,none,,high,,stage2
+Epiris GP III Ltd,news stories,none,,high,,stage2
+Escofi,news stories,none,,,,stage2
+Estrela Amadora,news stories,none,,,,stage2
+European Lithium Limited,news stories,none,,,,stage2
+Eurowind Energy,news stories,none,,high,,stage2
+Evett,news stories,none,,high,,stage2
+Exus Renewables North America,news stories,none,,,,stage2
+FNWD,news stories,none,,,,stage2
+Fair Games,news stories,none,,,,stage2
+Family Tree Group,news stories,none,,,,stage2
+Farmsense,news stories,none,,,,stage2
+Finn Harps,news stories,none,,,,stage2
+Fintel,news stories,none,,,,stage2
+Fire Protection Recycling Limited,news stories,none,,medium,,stage2
+Fireshine Games,news stories,none,,,,stage2
+First Timers,news stories,none,,,,stage2
+FirstLight,news stories,none,,,,stage2
+Fishtank Agency,news stories,none,,,,stage2
+Flacks Group,news stories,none,,,,stage2
+Flourish Care Holdings,news stories,none,,,,stage2
+Flux Power,news stories,none,,,,stage2
+Flynn Group,news stories,none,,,,stage2
+Fomo,news stories,none,,,,stage2
+Fortress Investment Group,news stories,none,,,,stage2
+Foundation Financial Planning,news stories,none,,medium,,stage2
+Fox Corp,news stories,none,,,,stage2
+Fox Corporation,news stories,none,,,,stage2
+GAA,news stories,none,,,,stage2
+GDT Topco LP,news stories,none,,,,stage2
+GMK Limited,news stories,none,,,,stage2
+GOI Energy,news stories,none,,high,,stage2
+GP Joule,news stories,none,,,,stage2
+Gamechanger Investments,news stories,none,,,,stage2
+Gamma Communications,news stories,none,,,,stage2
+Gamma Communications PLC,news stories,none,,,,stage2
+Garantex,news stories,none,,,,stage2
+Gateshead,news stories,none,,high,,stage2
+Gateshead FC,news stories,none,,high,,stage2
+Gen Digital,news stories,none,,,,stage2
+Genel Energy,news stories,none,,high,,stage2
+Genel Energy PLC,news stories,none,,high,,stage2
+Girondins de Bordeaux,news stories,none,,,,stage2
+Global Infrastructure Partners,news stories,none,,high,,stage2
+Global Infrastructure Partners (GIP),news stories,none,,high,,stage2
+Globalstar,news stories,none,,,,stage2
+Gnosis Pay,news stories,none,,high,,stage2
+GoDaddy,news stories,none,,,,stage2
+GoMoney,news stories,none,,,,stage2
+GoPro,news stories,none,,high,,stage2
+Gold Fields,news stories,none,,,,stage2
+Gold's Gym,news stories,none,,high,,stage2
+Golden Global Portfoy Yonetimi Anonim Sirketi,news stories,none,,,,stage2
+Golden Global Varlik Kiralama Anonim Sirketi,news stories,none,,,,stage2
+Golden Global Yatirim Bankasi Anonim Sirketi,news stories,none,,high,,stage2
+Gordon Brothers,news stories,none,,,,stage2
+Government,news stories,none,,high,,stage2
+Graffham Parish Council,news stories,none,,high,,stage2
+Grain Management,news stories,none,,,,stage2
+Granby Nurseries,news stories,none,,,,stage2
+Grasshopper Bancorp,news stories,none,,high,,stage2
+Gravv,news stories,none,,,,stage2
+Great Plains Communications,news stories,none,,,,stage2
+Grenergy,news stories,none,,high,,stage2
+Gulf Keystone Petroleum,news stories,none,,high,,stage2
+HBO,news stories,none,,,,stage2
+HEY Service Group,news stories,none,,,,stage2
+HSE,news stories,none,,,,stage2
+HSE West North West,news stories,none,,high,,stage2
+Halifax,news stories,none,,,,stage2
+Hampshire County Council,news stories,none,,high,,stage2
+Hampshire councils,news stories,none,,,,stage2
+Hardies Chartered Surveyors,news stories,none,,,,stage2
+Harvey Nichols,news stories,none,,high,,stage2
+Haven,news stories,none,,high,,stage2
+Head Start Ramsey Nursery,news stories,none,,,,stage2
+Health Service Executive,news stories,none,,,,stage2
+Heleket,news stories,none,,,,stage2
+HempWell Ltd,news stories,none,,,,stage2
+Hezbollah,news stories,none,,,,stage2
+Hodgson Sayers,news stories,none,,,,stage2
+Hugging Face,news stories,none,,,,stage2
+Humain,news stories,none,,,,stage2
+ICA,news stories,none,,,,stage2
+INK Capital,news stories,none,,high,,stage2
+ISAB,news stories,none,,high,,stage2
+Inertia Consulting,news stories,none,,,,stage2
+Infineon Technologies,news stories,none,,,,stage2
+Initiate Consultancy,news stories,none,,,,stage2
+Innova Renewables,news stories,none,,,,stage2
+Instacart,news stories,none,,,,stage2
+Inszone Insurance Services,news stories,none,,high,,stage2
+Intermarché,news stories,none,,high,,stage2
+International Criminal Court,news stories,none,,,,stage2
+International Resources Holdings RSC Ltd,news stories,none,,high,,stage2
+Intersnack Group GmbH & Co. KG,news stories,none,,high,,stage2
+IonQ,news stories,none,,high,,stage2
+Irish Residential Properties REIT,news stories,none,,high,,stage2
+Irish Residential Properties REIT PLC,news stories,none,,high,,stage2
+Iveco,news stories,none,,high,,stage2
+JCPS Homes,news stories,none,,high,,stage2
+JJ Double Gold,news stories,none,,high,,stage2
+Jessops,news stories,none,,,,stage2
+Just Shot,news stories,none,,high,,stage2
+Juventus,news stories,none,,,,stage2
+Kakaku.com,news stories,none,,,,stage2
+Kanadevia Inova,news stories,none,,,,stage2
+Karnakis and Karnakis,news stories,none,,,,stage2
+Karyopharm Therapeutics,news stories,none,,,,stage2
+Kelvion,news stories,none,,,,stage2
+Kenmare Resources PLC,news stories,none,,high,,stage2
+Keystone,news stories,none,,high,,stage2
+King Power,news stories,none,,,,stage2
+Kredete,news stories,none,,,,stage2
+Kroger,news stories,none,,,,stage2
+Kwikstore,news stories,none,,,,stage2
+LA Clippers,news stories,none,,,,stage2
+LUG aircargo handling GmbH,news stories,none,,,,stage2
+Laundryheap,news stories,none,,,,stage2
+Lazy Day Foods,news stories,none,,,,stage2
+Lebaneat,news stories,none,,,,stage2
+Leeds Jewish Welfare Board,news stories,none,,,,stage2
+Legacy Wealth Management,news stories,none,,medium,,stage2
+Legal Aid Agency,news stories,none,,,,stage2
+Leita Mobility,news stories,none,,,,stage2
+Liberty Broadband Corporation,news stories,none,,medium,,stage2
+Lindner Prater,news stories,none,,,,stage2
+Lindner Prater Ltd,news stories,none,,,,stage2
+Lirion Power,news stories,none,,medium,,stage2
+Little Dreams Nursery,news stories,none,,high,,stage2
+LivePerson,news stories,none,,,,stage2
+Lock Stock Self Storage,news stories,none,,,,stage2
+London & Valley Water consortium,news stories,none,,,,stage2
+London Irish,news stories,none,,high,,stage2
+London Stansted,news stories,none,,,,stage2
+Los Angeles Clippers,news stories,none,,,,stage2
+Lottomatica,news stories,none,,,,stage2
+Ludoil,news stories,none,,,,stage2
+Lufthansa Cargo,news stories,none,,,,stage2
+M J Scaffolding,news stories,none,,medium,,stage2
+M&S,news stories,none,,high,,stage2
+MCR Property Group,news stories,none,,,,stage2
+MGM Resorts,news stories,none,,high,,stage2
+MGM Resorts International,news stories,none,,high,,stage2
+MKM Building Supplies,news stories,none,,high,,stage2
+Mahan Air,news stories,none,,high,,stage2
+Man City,news stories,none,,high,,stage2
+Man Utd,news stories,none,,high,,stage2
+Marr Labs,news stories,none,,,,stage2
+Martin Property Group,news stories,none,,,,stage2
+Marvell Technology,news stories,none,,,,stage2
+Mary Erskine School,news stories,none,,,,stage2
+Matchbook,news stories,none,,,,stage2
+Medicare,news stories,none,,high,,stage2
+Melbourne Airport,news stories,none,,,,stage2
+Melin Homes,news stories,none,,high,,stage2
+Menck,news stories,none,,,,stage2
+Ministry of Justice,news stories,none,,high,,stage2
+Mistral Data,news stories,none,,,,stage2
+Mobico,news stories,none,,,,stage2
+Mobico Group PLC,news stories,none,,,,stage2
+Modella,news stories,none,,,,stage2
+Moeve,news stories,none,,,,stage2
+MoneyGram,news stories,none,,,,stage2
+Monte dei Paschi di Siena,news stories,none,,,,stage2
+MoonPay,news stories,none,,,,stage2
+Moorcare,news stories,none,,,,stage2
+Mortgage Brain Holdings,news stories,none,,,,stage2
+Mortgage Brain Holdings Limited,news stories,none,,,,stage2
+Moulton College,news stories,none,,,,stage2
+Mountain Pub Company,news stories,none,,,,stage2
+Musgrave,news stories,none,,,,stage2
+Musgrave Group,news stories,none,,,,stage2
+My Property Box,news stories,none,,,,stage2
+NHS,news stories,none,,high,,stage2
+NHS England,news stories,none,,high,,stage2
+NHS Tayside,news stories,none,,,,stage2
+NHS trust,news stories,none,,medium,,stage2
+NIS,news stories,none,,,,stage2
+NUBURU Inc,news stories,none,,,,stage2
+NYDIG,news stories,none,,,,stage2
+Nadara,news stories,none,,,,stage2
+Napoli,news stories,none,,,,stage2
+National Air Traffic Services,news stories,none,,high,,stage2
+National Car Parks,news stories,none,,medium,,stage2
+NatureScot,news stories,none,,high,,stage2
+Navacant,news stories,none,,,,stage2
+Navitas Semiconductor,news stories,none,,high,,stage2
+Nectar Imports,news stories,none,,,,stage2
+New Milton Sand & Ballast,news stories,none,,,,stage2
+Newport City Homes,news stories,none,,high,,stage2
+NextEra Energy,news stories,none,,high,,stage2
+Nexus Mods,news stories,none,,,,stage2
+Njoy Student Living,news stories,none,,,,stage2
+No7 Beauty Company,news stories,none,,,,stage2
+NonStop Gym,news stories,none,,high,,stage2
+North West Ambulance Service,news stories,none,,,,stage2
+Northampton College,news stories,none,,,,stage2
+Northampton Town,news stories,none,,,,stage2
+Northern Star Resources,news stories,none,,high,,stage2
+Nubank,news stories,none,,high,,stage2
+Obvios,news stories,none,,,,stage2
+Ocean Breeze Energy,news stories,none,,high,,stage2
+OceanPact Serviços Marítimos,news stories,none,,,,stage2
+Oceania Cruises,news stories,none,,,,stage2
+Octus,news stories,none,,,,stage2
+Ondas Inc.,news stories,none,,,,stage2
+OpenAI,news stories,none,,,,stage2
+OpenRouter,news stories,none,,high,,stage2
+OpenZeppelin,news stories,none,,,,stage2
+Orme Law,news stories,none,,,,stage2
+Oxford Metrics,news stories,none,,,,stage2
+PASG,news stories,none,,,,stage2
+PCP Partners,news stories,none,,high,,stage2
+PEAK:AIO,news stories,none,,,,stage2
+PIF,news stories,none,,,,stage2
+PSNI,news stories,none,,,,stage2
+PT Kalimantan Wahana Berjaya,news stories,none,,high,,stage2
+Palestine Action,news stories,none,,high,,stage2
+Paradox Interactive,news stories,none,,high,,stage2
+Paramount Global,news stories,none,,,,stage2
+Pario Holiday Parks,news stories,none,,high,,stage2
+Park Bench,news stories,none,,,,stage2
+Park Blue Homes,news stories,none,,medium,,stage2
+Patrizia,news stories,none,,,,stage2
+PayNearMe,news stories,none,,,,stage2
+Peel Holdings Group Ltd,news stories,none,,medium,,stage2
+Peel Land,news stories,none,,,,stage2
+Peel Pepper,news stories,none,,medium,,stage2
+Peel Pepper UK Ltd,news stories,none,,high,,stage2
+Pegasus Airlines,news stories,none,,,,stage2
+Pelagia Shetland Limited,news stories,none,,,,stage2
+"Penske Automotive Group, Inc.",news stories,none,,,,stage2
+People Incorporated,news stories,none,,high,,stage2
+"Personalis, Inc.",news stories,none,,,,stage2
+Personality AI,news stories,none,,,,stage2
+Pinewood.AI,news stories,none,,medium,,stage2
+Pishtaz Simorgh Electronic Trade Company,news stories,none,,,,stage2
+Planetcast,news stories,none,,,,stage2
+PlatformX Communications,news stories,none,,,,stage2
+Playrion,news stories,none,,,,stage2
+Poste Italiane,news stories,none,,high,,stage2
+Priority Courier Experts,news stories,none,,,,stage2
+Public Investment Fund,news stories,none,,,,stage2
+Public Sector Pension Investment Board,news stories,none,,,,stage2
+Punch Pubs & Co,news stories,none,,,,stage2
+Pyxis,news stories,none,,,,stage2
+Qorvo,news stories,none,,,,stage2
+Quince Therapeutics,news stories,none,,,,stage2
+R. Lewis & Co,news stories,none,,,,stage2
+RAF Fairford,news stories,none,,,,stage2
+RENK Group AG,news stories,none,,,,stage2
+RHI Magnesita NV,news stories,none,,,,stage2
+RNLI,news stories,none,,high,,stage2
+Range Resources,news stories,none,,high,,stage2
+Realterm,news stories,none,,,,stage2
+RedBird Capital Partners,news stories,none,,high,,stage2
+RedBird IMI,news stories,none,,high,,stage2
+Redevco,news stories,none,,,,stage2
+Redkite Solicitors,news stories,none,,,,stage2
+Reform UK,news stories,none,,high,,stage2
+Relish,news stories,none,,medium,,stage2
+Rhino Investments Group,news stories,none,,,,stage2
+Rhythm,news stories,none,,,,stage2
+Ridgeview Partners,news stories,none,,high,,stage2
+Ridgeview Partners LLC,news stories,none,,medium,,stage2
+Rightfiber,news stories,none,,,,stage2
+Ritter Communications,news stories,none,,,,stage2
+Riverstone-Abbey Estate Agents Ltd,news stories,none,,,,stage2
+Rocket Rights/Rights Booster,news stories,none,,,,stage2
+Royal Cornwall Hospitals Trust,news stories,none,,,,stage2
+SAFT,news stories,none,,high,,stage2
+SBI Holdings,news stories,none,,,,stage2
+SES Water,news stories,none,,medium,,stage2
+SLB,news stories,none,,high,,stage2
+Saracens,news stories,none,,,,stage2
+Saudi Aramco,news stories,none,,,,stage2
+Saudi Public Investment Fund,news stories,none,,,,stage2
+Savvy Games Group,news stories,none,,,,stage2
+Sazerac,news stories,none,,,,stage2
+Scotchstone Capital LLP,news stories,none,,high,,stage2
+ScotlandShop,news stories,none,,high,,stage2
+Scottish and Southern Electricity Networks,news stories,none,,high,,stage2
+Seagate,news stories,none,,,,stage2
+Seal Bay Resort,news stories,none,,,,stage2
+Sedgefield,news stories,none,,,,stage2
+Sedgefield racecourse,news stories,none,,,,stage2
+ShaMaran Petroleum,news stories,none,,,,stage2
+Shepherd Private Clients,news stories,none,,medium,,stage2
+Shrewsbury Town,news stories,none,,,,stage2
+Silver Lake,news stories,none,,,,stage2
+Silver Softworks,news stories,none,,,,stage2
+SkyShows,news stories,none,,,,stage2
+Skyworks Solutions,news stories,none,,,,stage2
+Solidion Technology,news stories,none,,,,stage2
+South Yorkshire Mayoral Combined Authority,news stories,none,,,,stage2
+Southampton City Council,news stories,none,,high,,stage2
+SpaceX,news stories,none,,,,stage2
+Spartans,news stories,none,,high,,stage2
+Speciality Steel UK,news stories,none,,,,stage2
+Sphere Abacus,news stories,none,,,,stage2
+Sports Alpha Capital,news stories,none,,high,,stage2
+Springfield Healthcare,news stories,none,,,,stage2
+St Conal's Hospital,news stories,none,,,,stage2
+St Loman's Hospital,news stories,none,,,,stage2
+Starlink,news stories,none,,,,stage2
+Starman Optical,news stories,none,,,,stage2
+SteamDB,news stories,none,,high,,stage2
+Stellex Capital Management,news stories,none,,high,,stage2
+Stirling Albion,news stories,none,,,,stage2
+Stirling Albion Supporters Trust,news stories,none,,,,stage2
+Stonehaven Roofing Services,news stories,none,,high,,stage2
+Stonepeak,news stories,none,,,,stage2
+Stride Bank,news stories,none,,high,,stage2
+Substantial Group,news stories,none,,,,stage2
+Suffolk Constabulary,news stories,none,,,,stage2
+SuperValu,news stories,none,,,,stage2
+Surgery Partners,news stories,none,,high,,stage2
+Surrey Police,news stories,none,,,,stage2
+Sydney Airport,news stories,none,,,,stage2
+System1,news stories,none,,,,stage2
+System1 Group PLC,news stories,none,,,,stage2
+T Vaughan Limited,news stories,none,,,,stage2
+T-Mobile US,news stories,none,,,,stage2
+TDR Capital,news stories,none,,high,,stage2
+TFG London,news stories,none,,,,stage2
+THCP Advisory,news stories,none,,,,stage2
+TPG,news stories,none,,,,stage2
+TTAM Research Institute,news stories,none,,,,stage2
+TWP,news stories,none,,,,stage2
+TXO,news stories,none,,,,stage2
+TalkTalk Telecommunications,news stories,none,,,,stage2
+Tapcast,news stories,none,,,,stage2
+Tazapay,news stories,none,,,,stage2
+Teck Resources,news stories,none,,high,,stage2
+Tekne S.p.A.,news stories,none,,high,,stage2
+"Tempus AI, Inc.",news stories,none,,,,stage2
+The Descartes Systems Group,news stories,none,,,,stage2
+The Edit,news stories,none,,high,,stage2
+The Friedkin Group,news stories,none,,,,stage2
+The Micro Spring and Presswork Company Limited,news stories,none,,,,stage2
+The Signalling Company,news stories,none,,,,stage2
+The Smallest Cog Limited,news stories,none,,high,,stage2
+The Stroud Hotel,news stories,none,,,,stage2
+Thompsons Group,news stories,none,,medium,,stage2
+Thomson Residential Ltd,news stories,none,,,,stage2
+Three Hills,news stories,none,,high,,stage2
+Three UK,news stories,none,,high,,stage2
+Tidewater,news stories,none,,high,,stage2
+Tilray Brands,news stories,none,,,,stage2
+Time Finance,news stories,none,,,,stage2
+TokenSpot,news stories,none,,,,stage2
+Toscafund,news stories,none,,,,stage2
+Toscafund Asset Management,news stories,none,,high,,stage2
+Toscafund Asset Management LLP,news stories,none,,medium,,stage2
+Toshiba,news stories,none,,,,stage2
+Town and Country Nursery,news stories,none,,medium,,stage2
+Trading with Schools,news stories,none,,,,stage2
+Training Schoolz,news stories,none,,,,stage2
+Training Toolz,news stories,none,,,,stage2
+Trian Fund Management,news stories,none,,high,,stage2
+Trident Maintenance Services,news stories,none,,high,,stage2
+Trimo,news stories,none,,high,,stage2
+Trophy Games,news stories,none,,,,stage2
+Truro Sawmills Limited,news stories,none,,,,stage2
+Tulip UK,news stories,none,,,,stage2
+Tulip UK Bidco,news stories,none,,,,stage2
+Tulip UK Bidco Ltd,news stories,none,,,,stage2
+U.M.I. Foods Ltd,news stories,none,,high,,stage2
+Ueno Bank,news stories,none,,high,,stage2
+Ukrainian military,news stories,none,,,,stage2
+Ultimate Finance,news stories,none,,,,stage2
+UniCredit,news stories,none,,,,stage2
+"Utz Brands, Inc.",news stories,none,,,,stage2
+VERSE,news stories,none,,medium,,stage2
+VMH Solicitors,news stories,none,,,,stage2
+Vadella,news stories,none,,,,stage2
+Validera,news stories,none,,,,stage2
+Vandemoortele,news stories,none,,,,stage2
+Vanderbilt University,news stories,none,,,,stage2
+Veritas Capital,news stories,none,,high,,stage2
+Vesuvius PLC,news stories,none,,,,stage2
+Vinted,news stories,none,,,,stage2
+W G Carter Limited,news stories,none,,high,,stage2
+Warburg Pincus,news stories,none,,,,stage2
+Watlington Bowls Club,news stories,none,,high,,stage2
+Wbg,news stories,none,,,,stage2
+Wesbell Communications,news stories,none,,high,,stage2
+Who Gives A Crap,news stories,none,,,,stage2
+WildBrain,news stories,none,,,,stage2
+Wilson Sons Ultratug,news stories,none,,,,stage2
+Wind2,news stories,none,,,,stage2
+Wittington Investments,news stories,none,,,,stage2
+World Labs,news stories,none,,,,stage2
+World of Swimming,news stories,none,,high,,stage2
+Yellow Card,news stories,none,,high,,stage2
+York Knights,news stories,none,,,,stage2
+Zarubezhneft,news stories,none,,,,stage2
+Zero Waste Scotland,news stories,none,,high,,stage2
+eSecLending,news stories,none,,,,stage2
+ibV Energy Partners,news stories,none,,high,,stage2
+inepro Group,news stories,none,,high,,stage2
+inepro ID,news stories,none,,,,stage2
+xAI,news stories,none,,,,stage2
+Škoda Group,news stories,none,,,,stage2
+Co-op,news stories,unsure,,medium,,stage2
+Global Shipping Services Ltd,news stories,unsure,,low,,stage2
+H&M Group,news stories,unsure,,medium,,stage2
+KKR,news stories,unsure,,medium,,stage2
+Kingsford Wealth Management,news stories,unsure,,low,,stage2
+Metlen,news stories,unsure,,low,,stage2
+Northampton Town Football Club,news stories,unsure,,low,,stage2
+Peel,news stories,unsure,,medium,,stage2
+Peel Group,news stories,unsure,,medium,,stage2
+Peel Holdings,news stories,unsure,,medium,,stage2
+Skydance,news stories,unsure,,low,,stage2
+Veritas,news stories,unsure,,low,,stage2

@@ -1,0 +1,371 @@
+# GTM Signal Run - all weights, thresholds, keyword lists and dates live here.
+# Change a value and rescore; no code change or new download needed.
+
+[run]
+run_date = "2026-11-10"          # age decay is counted from this date
+export_version = "v6"           # v6 (13 Nov 2026): v5 approved as the list; presentation fixes + same-group correction
+scope = "full"                   # "pilot" = the 300-group sample (Steps 3-5); "full" = every group (Step 7)
+pilot_upload = false             # stage 2: do not overwrite the Step 4 pilot spreadsheet in Uploads
+step7_started = "2026-11-11T16:00"   # the run log is summarised from here (review_full.py)
+review_seed = 7                   # the 20 random groups outside the top 300
+
+# ---------------------------------------------------------------- Step 1: universe
+[universe]
+gpg_years = [2025, 2026]          # UK gender pay gap reporting years used (latest filing per employer wins)
+msr_years = [2024, 2025, 2026, 2027]  # modern slavery statement years (size test only)
+min_staff_bands = ["250 to 499", "500 to 999", "1000 to 4999", "5000 to 19,999", "20,000 or more"]
+min_turnover_bands = ["£36 million to £60 million", "£60 million to £100 million",
+                      "£100 million to £500 million", "Over £500 million"]
+# SIC/NACE codes treated as public administration (section O, division 84)
+public_admin_code_prefixes = ["84"]
+public_name_flags = ["council", "nhs", "police", "authority", "department"]
+# Point 8 (Tom, 11 Nov, replaces point 15): a pay gap entry with no company number stays in only if its industry
+# codes do not include the public sector marker "1" AND its name has none of these words ("N H S" counts as NHS).
+# Universities come in through the universities register only (a no-number pay gap "university" is removed
+# unless it was tied to the OfS register).
+gpg_public_sector_code = "1"
+public_body_words = ["council", "nhs", "health board", "hospital", "ambulance", "police", "constabulary", "authority",
+                     "department", "ministry", "office", "government", "parliament", "fire and rescue",
+                     "combined authority", "borough", "crown", "agency", "armed forces"]
+gpg_university_word = "university"
+# Full run review point 6 (Tom, 11 Nov): removed from the universe whatever their source; universities stay
+fe_college_codes = ["85310", "85320", "85410"]   # FE / sixth-form colleges: removed only with the public sector code "1"
+remove_name_words = ["education trust", "educational trust", "catholic education", "education partnership"]
+remove_names = ["Northern Trains Limited"]
+ch_alive_statuses = ["active", "open", "registered"]   # open = UK branch of overseas company; registered = overseas entity
+# Companies House holds no status for these legal forms; they stay in, flagged "status not held by Companies House"
+ch_types_without_status = ["registered-society-non-jurisdictional", "industrial-and-provident-society",
+                           "royal-charter", "charitable-incorporated-organisation", "scottish-charitable-incorporated-organisation"]
+# The public administration code test only removes entities that are NOT one of these company forms.
+# Companies with defence/public-order codes (BAE, Babcock, G4S...) stay in, flagged.
+company_types_exempt_from_code_test = ["ltd", "plc", "private-unlimited", "private-unlimited-nsc", "llp",
+                                       "private-limited-guarant-nsc", "private-limited-guarant-nsc-limited-exemption",
+                                       "private-limited-shares-section-30-exemption", "uk-establishment",
+                                       "oversea-company", "registered-overseas-entity", "limited-partnership"]
+cro_alive_statuses = ["Normal"]
+# Irish size rule. The portal export (manual download, 10 Nov 2026) only had 115 employers, as reporting was
+# voluntary until the 30 Nov 2026 deadline. true = also keep Central Bank firms not on the portal, as "size unconfirmed".
+ie_gpg_file = "GPG_Report-Export_2026-11-10_19-30-46.csv"
+ie_gpg_size_bands = ["250+"]
+ie_keep_cbi_unconfirmed = true
+# Point 9: Central Bank registers whose firms stay in (label prefixes). Credit unions, retail credit,
+# high-cost credit, credit servicing and crypto (VASP) firms are removed. Fund managers kept (Tom, 11 Nov 2026).
+cbi_keep_registers = [
+  "Register of Credit Institutions",
+  "Life Undertakings regulated by the Central Bank of Ireland",
+  "Non-Life Undertakings regulated by the Central Bank of Ireland",
+  "Register of Reinsurance Undertakings and Special Purpose Reinsurance Vehicles",
+  "List of Investment Firms authorised under Regulation 8",
+  "Register of Investment Business Firms authorised under Section 10",
+  "Register of Authorised and Registered Alternative Investment Fund Managers",
+  "Authorised UCITS Management Companies",
+  "Register of Payment Institutions",
+  "Register of Electronic Money Institutions",
+]
+# in the Section 10 register only this institution type stays (fund administrators, depositaries);
+# "Investment Intermediary" (retail advisers) is removed
+cbi_section10_keep_types = ["Section 10 Investment Firm"]
+# Point 10: schools and academy trusts are removed (charities stay). Codes are UK SIC / Irish NACE digits.
+education_codes = ["85100", "85200", "85310", "85320", "8510", "8520", "8531", "8532"]
+education_name_words = ["academy trust", "academies trust", "multi-academy", "learning trust", "schools trust"]   # Tom, 11 Nov
+
+# Central Bank of Ireland registers used for "authorised financial firm" (Irish-authorised sections only)
+cbi_registers = [
+  "Register of Credit Institutions",
+  "Register of Credit Unions as at",
+  "Life Undertakings regulated by the Central Bank of Ireland",
+  "Non-Life Undertakings regulated by the Central Bank of Ireland",
+  "Register of Reinsurance Undertakings and Special Purpose Reinsurance Vehicles",
+  "List of Investment Firms authorised under Regulation 8",
+  "Register of Investment Business Firms authorised under Section 10",
+  "Register of Authorised and Registered Alternative Investment Fund Managers",
+  "Authorised UCITS Management Companies",
+  "Register of Retail Credit Firms and Home Reversion Firms",
+  "Register of Payment Institutions",
+  "Register of Electronic Money Institutions",
+  "Credit Servicing Firms authorised by State",
+  "Register of High Cost Credit Providers as at",
+  "Register of Virtual Asset Service Providers",
+]
+
+# ---------------------------------------------------------------- Points (Reference A)
+[points.need]
+principal_risk_named = 3
+principal_risk_passing = 1
+authorised_financial = 2
+authorised_intermediary = 1      # insurance intermediary or investment adviser (FCA)
+other_regulated = 1
+
+critical_infrastructure = 2      # point 12; sector need points do not add up: a group takes its highest one
+pharmaceuticals = 1
+
+# Point 12: industry code prefixes (UK SIC / Irish NACE digits) for the sector need signals
+[sector_codes]
+"critical infrastructure (energy)" = ["35", "0610", "0620", "1920", "4950"]
+"critical infrastructure (water and waste water)" = ["36", "37"]
+"critical infrastructure (telecoms)" = ["61100", "61200", "61300"]
+"critical infrastructure (rail)" = ["4910", "4920"]
+"critical infrastructure (air transport)" = ["51", "5223"]
+"critical infrastructure (health)" = ["86101"]   # hospital activities only
+"pharmaceuticals" = ["21"]
+
+# Irish NACE codes are 4 digits; a 5-digit UK code above is matched in Ireland through this table
+[sector_codes_ie]
+"61100" = "6110"
+"61200" = "6120"
+"61300" = "6130"
+"86101" = "8610"
+
+[points.trigger]
+hiring_tprm_or_security_leader = 4
+hiring_senior_leader = 3          # hiring signals do not stack: a group takes its highest one
+new_smf4_smf5 = 4
+merger = 3
+merger_bolt_on = 1               # v4: a smaller bolt-on acquisition in the news (never counts towards the Act now test)
+hiring_wider_or_operating_change = 2
+board_turnover = 1
+new_funding_or_charge = 1        # point 13: SH01 on a plc does not count
+headcount_growth = 1             # point 18: moved up a pay gap staff band between the last two years
+pre_ipo = 2                      # point 19: private company re-registered as a plc in the last 12 months
+# stage 2 (Tom, 12 Nov 2026)
+regulatory_enforcement = 4       # relevant enforcement only (item 1 rule), regulator or news: one family
+governance_downgrade = 3         # housing governance downgrade (same family as enforcement)
+news_incident = 2                # operational incident or supplier failure at the account (news)
+ransomware_claim = 2             # claimed ransomware victim (the account itself) - ransomware.live, approved 12 Nov
+peer_incident = 2                # never counts towards the Act now "trigger worth 3+" test
+
+[decay]                            # multiplier by trigger age in months
+bands = [[3, 1.0], [6, 0.5], [12, 0.25]]   # under 3m full, 3-6m half, 6-12m quarter, 12m+ nothing
+
+[sector_label]
+# Point 5 (Tom, 11 Nov): sector comes from the member with the largest staff band, ignoring these codes
+ignore_code_prefixes = ["642", "70100", "82990"]
+# point 2 (full run review): a group with an FCA-authorised firm of these types is "Financial services"
+financial_fca_types = ["bank or building society", "insurer", "investment firm", "payment or e-money institution"]
+band_order = ["Act now", "Warming", "Strong fit", "Fit only"]     # point 6: ranked list sorted by band, then total
+
+[bands]
+act_now_min_timing = 3
+act_now_min_trigger_points = 3     # point 1: Act now also needs a counted trigger worth 3+ before decay
+strong_fit_min_need = 3
+warming_min_timing = 2             # full run review point 1: Warming needs timing 2+ (below: Strong fit / Fit only)
+
+[rules]
+board_turnover_min_changes = 3
+lookback_months = 12
+
+# ---------------------------------------------------------------- Job keywords (Reference B)
+[keywords]
+tprm = ["third party", "third-party", "tprm", "vendor risk", "supplier risk", "supplier assurance",
+        "supply chain risk", "vendor management", "supplier management", "supplier security",
+        "vendor security", "outsourcing", "operational resilience", "third party transformation"]
+security_leader_exact = ["ciso", "chief information security officer", "chief security officer"]
+security_leader_seniority = ["head", "director", "vp"]
+security_leader_area = ["information security", "cyber security", "cybersecurity", "it security"]
+wider_area = ["risk", "compliance", "procurement", "internal audit", "grc", "information security",
+              "cyber security", "cybersecurity", "it security", "security risk", "security assurance",
+              "sourcing", "governance", "resilience", "resiliency"]
+wider_seniority = ["head", "director", "manager", "lead", "chief"]
+# Point 16: senior leader advert (3 points)
+senior_leader_seniority = ["head", "director", "chief", "vp", "global head"]
+senior_leader_area = ["procurement", "sourcing", "compliance", "risk", "grc", "operational resilience"]
+senior_leader_exact = []          # Tom, 11 Nov: bare CPO / CRO / CCO removed; written-out titles still match
+operating_change = ["procurement transformation", "source-to-pay", "erp programme",
+                    "erp implementation", "s/4hana"]
+
+# ---------------------------------------------------------------- Step 2: grouping
+[grouping]
+# Point 1: follow an owner upward only when it holds MORE than 50% (Companies House bands 50-75% / 75-100%
+# of shares, votes or, for LLPs, surplus assets). Right to appoint directors alone is not enough.
+majority_pattern = "^(ownership-of-shares|voting-rights|right-to-share-surplus-assets)-(50-to-75|75-to-100)-percent"
+# Point 2: stop the walk below an investor; the group is the highest company below it. An investor is an owner
+# with one of these industry codes, a name containing one of these words, or a known financial sponsor.
+# v4 item 6 (Tom, 13 Nov 2026): the walk also stops below governments and state bodies (owner name contains one of these)
+state_owner_words = ["government", "secretary of state", "minister for", "ministry of", "ministry for", "hm treasury",
+                     "her majesty's treasury", "his majesty's treasury", "state of", "kingdom of", "republic of",
+                     "emirate of", "investment authority", "public investment fund", "city council", "county council",
+                     "borough council", "district council", "combined authority", "the scottish ministers",
+                     "welsh ministers", "department for", "department of"]
+investor_codes = ["64301", "64302", "64303", "64304", "64305", "64306", "66300", "65300"]
+investor_name_words = ["l.p.", "lp", "fund", "funds", "capital partners", "private equity", "pension", "pensions",
+                       "superannuation"]
+investor_sponsors = ["kkr", "bgf", "blackstone", "cvc", "carlyle", "advent", "apollo", "bain capital", "cinven",
+                     "permira", "eqt", "tdr", "macquarie", "ldc",
+                     # added by Tom, 11 Nov 2026
+                     "brookfield", "ck hutchison", "ck infrastructure", "global infrastructure partners", "blackrock",
+                     "omers", "cpp investments", "ontario teachers", "antin", "ardian", "3i", "bridgepoint", "hg",
+                     "warburg pincus", "clayton dubilier", "clayton, dubilier", "pai partners", "bc partners", "apax",
+                     "inflexion", "stonepeak", "i squared", "ifm investors", "partners group", "temasek", "gic", "dbay"]
+# a sponsor name must start the owner's name (so "Health Partners Group Limited" is not Partners Group)
+# Point 1 (Tom, 11 Nov): an owner is NOT an investor when it shares a brand with the company it owns
+# (same first distinctive word, e.g. Jupiter / Jupiter, GAM / GAM, Lloyds / Lloyds). These words are skipped
+# when finding the first distinctive word.
+brand_skip_words = ["the", "a", "uk", "gb", "group", "holdings", "holding", "international", "global", "european",
+                    "first", "new", "royal", "british", "national", "general"]
+# Point 3: a group is named after its member with the largest pay gap staff band; avoid these names
+# Point 1 (Tom, 11 Nov): name = foreign parent's name; else the top UK company's name; fall back to the largest
+# pay gap member only when that name contains one of these words or is mostly numbers
+holdco_words = ["bidco", "topco", "midco", "holdco", "finco", "borrower"]
+# Tom, 11 Nov: groups that are the same business but were split (first id is kept)
+merges = [
+  ["FP:deutsche bank aktiengesellschaft", "UK:06007148", "IE:deutsche bank"],
+  ["FP:sumitomo mitsui banking corporation", "FP:sumitomo mitsui financial group inc", "IE:smbc bank", "UK:02418137"],
+  ["FP:jpmorgan chase and company", "UK:BR000746"],
+  ["FP:state street corporation", "IE:state street", "UK:BR002088"],
+  ["UK:04457314", "UK:00103161", "FP:halfords autocentres ltd", "UK:04050548", "UK:05192712", "UK:10182074"],
+  ["UK:03183415", "UK:AC001669", "IE:st jamess"],
+  ["UK:03512757", "UK:OC450748", "UK:13219845"],
+  ["UK:OC338303", "UK:OC301032"],
+  ["UK:14785367", "IE:monzo bank"],
+  ["UK:08480771", "IE:stripe technology"],
+  ["FP:markel group inc", "IE:markel insurance"],
+  ["FP:teleflex incorporated", "IE:teleflex medical"],
+  ["UK:NI018800", "IE:aib mortgage"],
+  ["UK:IP030666", "UK:IP17704R"],
+  ["FP:bank of america corporation", "IE:bank america"],
+  ["FP:citigroup inc", "IE:citi depositary"],
+  ["UK:03584019", "FP:morgan stanley"],          # Tom 11 Nov: Eaton Vance group into UK Morgan Stanley
+  ["IE:mitsubishi ufj", "IE:mufg alternative"],  # Tom 13 Nov (v5 item 6): the two MUFG groups in Ireland share one advert
+]
+large_group_check = 10            # Point 4: list every group with more than this many entities
+max_chain = 15                    # stop climbing ownership after this many hops (guards against loops)
+# words that mark a corporate owner as UK-registered (country / place registered / legal authority)
+uk_place_words = ["united kingdom", "england", "wales", "scotland", "northern ireland", "great britain",
+                  "companies house", "registrar of companies for", "companies act", "uk"]
+# Irish name stem: normalised name minus these words, first N remaining words
+ie_stem_words = 2
+ie_stem_stopwords = ["ltd", "dac", "plc", "uc", "clg", "teo", "company", "limited", "unlimited", "designated",
+                     "activity", "ireland", "irish", "europe", "european", "international", "holdings", "holding",
+                     "group", "the", "and", "of", "services", "financial", "management", "investments"]
+
+# ---------------------------------------------------------------- Step 3: FCA Register
+[fca]
+min_gap_seconds = 0.75            # ~80 requests a minute (limit is about 100)
+authorised_statuses = ["Authorised", "EEA Authorised"]   # "Registered" / "No longer authorised" do not count
+smf_codes = ["SMF4", "SMF5"]      # Chief Risk / Head of Internal Audit
+# Point 11: which FCA firms earn "authorised financial firm". From the firm's Permissions list (activity names)
+# and its "PSD / EMD Status" field. Consumer credit, broking and advice alone earn nothing.
+[fca.firm_types]
+"insurer" = ["Effecting contracts of insurance", "Carrying out contracts of insurance",
+             "Managing the underwriting capacity of a Lloyd's syndicate as a managing agent at Lloyd's"]
+"bank or building society" = ["Accepting Deposits"]
+"investment firm" = ["Dealing in investments as principal", "Managing investments",
+                     "Safeguarding and administration of assets (without arranging)", "Managing a UCITS",
+                     "Managing an AIF", "Managing an unauthorised AIF"]
+# 1-point tier (Tom, 11 Nov 2026): FCA-authorised insurance intermediaries and investment advisers
+[fca.firm_types_1pt]
+"insurance intermediary" = ["Assisting in the administration and performance of a contract of insurance"]
+"investment adviser" = ["Advising on investments (except on Pension Transfers and Pension Opt Outs)",
+                        "Advising on Pension Transfers and Pension Opt Outs"]
+[fca.psd_emd]
+"payment or e-money institution" = ["Authorised Payment Institution", "Authorised Electronic Money Institution"]
+
+# ---------------------------------------------------------------- Step 3: job adverts
+[jobs]
+# queries = every keyword term from [keywords]; Adzuna searches titles only, Reed searches whole adverts
+adzuna_min_gap_seconds = 3.0      # Adzuna free tier: ~25/min, ~1,000/month
+adzuna_max_calls = 400            # hard stop for one pull
+reed_min_gap_seconds = 1.2
+reed_max_calls = 1500
+reed_query_overrides = { "s/4hana" = "hana" }   # Reed ignores the slash in s/4hana and matches everything
+reed_max_results = 10000          # Reed will not page past this; bigger searches are split (see jobs.py)
+# an advert counts as placed by a recruiter (no named employer) if the employer name has one of these words
+recruiter_name_words = ["recruitment", "recruiting", "recruiters", "resourcing", "staffing", "personnel",
+                        "talent", "selection", "search", "headhunt", "appointments", "jobs", "careers",
+                        "employment", "people", "consultancy group", "hays", "michael page", "robert half",
+                        "robert walters", "harvey nash", "reed", "adecco", "randstad", "manpower"]
+# ...or its text contains one of these
+# job boards and recruiters whose names carry no recruitment word (point 6)
+job_boards = ["efinancialcareers", "totaljobs", "cv library", "cv-library", "jobsite", "indeed", "monster",
+              "linkedin", "guardian jobs", "glassdoor", "jobserve", "cwjobs", "technojobs", "jobs.ac.uk",
+              "1st executive", "ashdown group", "tristone nash", "tristonenash", "morson edge", "io associates",
+              "morgan law", "lorien", "nigel wright", "qed legal", "portfolio procurement", "venn group",
+              "nigel frank", "carrington west", "marks sattin", "oliver james", "linsco", "meridian business support"]
+recruiter_industry_prefixes = ["78"]   # matched employer's SIC is employment activities (agencies, e.g. Brook Street)
+recruiter_text_phrases = ["our client", "my client", "on behalf of", "a client of ours", "the client is"]
+# legal-form words ignored when matching an employer name to a company (Atom Bank = ATOM BANK PLC)
+employer_suffix_words = ["ltd", "plc", "llp", "lp", "limited", "uk", "u k", "group", "holdings", "company",
+                         "the", "and", "co", "inc", "gb", "england"]
+
+# ---------------------------------------------------------------- Step 3: listed-company app results
+[scanner]
+file = "Risk scanner results FINAL 2026-11-09.xlsx"   # in UPLOADS_DIR, or already in data/raw/scanner/ (Tom 11 Nov 2026)
+
+# ---------------------------------------------------------------- Step 3: Companies House filings
+[ch_filings]
+director_changes = ["AP01", "AP02", "TM01"]   # director appointed (person / corporate), director terminated
+funding = ["SH01"]                            # allotment of new shares
+charges = ["MR01"]                            # new charge (secured borrowing)
+
+# ---------------------------------------------------------------- Step 3: pilot sample
+[pilot]
+seed = 20261110                   # fixed, so the same sample can be picked again
+financial_groups = 100            # UK groups with an FCA-authorised entity
+other_uk_groups = 150
+irish_groups = 50
+# Tom, 11 Nov 2026: after regrouping keep the SAME pilot entities (the first draw with this seed), map each to
+# its new group, and drop entities removed from the universe. "redraw" would draw a fresh sample instead.
+mode = "keep"
+keep_from = "output/before_changes/step3/pilot_entities.csv"
+
+# ---------------------------------------------------------------- Step 5: model steps (Reference E)
+[models]
+classify = "claude-opus-5-5"            # Tom, 11 Nov: every advert to Opus; the Haiku first pass is dropped
+classify_effort = "medium"
+classify_assumed_output_tokens = 200    # pilot Opus answers averaged 158 output tokens
+briefs = "claude-fable-5-2"
+briefs_assumed_output_tokens = 700
+briefs_top_n = 300                      # Step 7: briefs for the top 300 Act now groups (the pilot used 10)
+brief_min_trigger_points = 2            # point 6: only triggers worth 2+ (plus need signals) are reasons in a brief
+budget_full_run_usd = 25                # point 13: pre-approved model spend for Step 7; stop and ask above it
+# superseded (pilot, Step 5): classify_first = "claude-haiku-5-5", unsure cases to Opus; 50 adverts; 10 briefs
+# Batch API prices, $ per million tokens (instructions, 10 Nov 2026): input, output
+price = { "claude-haiku-5-5" = [0.05, 0.25], "claude-opus-5-5" = [2.0, 10.0], "claude-fable-5-2" = [4.0, 20.0] }
+
+# ---------------------------------------------------------------- Points 9 and 10: firms added from the FCA / PRA
+[additions]
+# PRA lists (Bank of England, "as at 01 November 2026"); Tom downloads them into Uploads (scripted downloads refused)
+pra_files = ["*[Bb]anks*[Ll]ist*2611*.csv", "*[Bb]anks-list-*.csv", "*[Bb]uilding*[Ss]ocieties*[Ll]ist*2611*.csv", "*[Ii]nsurers*[Ll]ist*2611*.csv"]   # names as downloaded (either style)
+pra_skip_section_words = ["special purpose vehicle"]    # ISPVs are not operating insurers
+size_label = "unconfirmed"
+
+# ---------------------------------------------------------------- Stage 2 (Tom, 12 Nov 2026): new signals
+[stage2]
+include_in_scoring = true               # true adds data/interim/stage2_signals.csv to signals.py (pilot first)
+budget_usd = 60                         # pre-approved model spend for all of stage 2 (raised from 40, Tom 12 Nov decisions)
+peer_limit = 150                        # v4: an incident that would give the peer signal to more groups is not applied (listed)
+model = "claude-opus-5-5"
+max_prompt_tokens = 100000              # every prompt stays under this (sections only)
+
+[stage2.slice_a]                        # principal risks in private-company annual reports
+# latest accounts filing counts as "full" when its description has one of these (not small / micro / dormant / abridged)
+full_accounts_words = ["type-full", "type-group", "type-medium"]   # medium: full statutory accounts with a strategic report
+accounts_filing_types = ["AA"]          # annual accounts only (not AA01 change of accounting date, which sits in the same category)
+min_text_per_page = 300                 # characters per page; below this the PDF is a scan -> "couldn't check" (no OCR)
+same_filing_days = 45                   # filings within this many days of the newest one are the same year (scanner rule)
+effort = "medium"
+assumed_output_tokens = 1500
+
+[stage2.slice_b]                        # news (GDELT DOC 2.0 API), searched by topic
+months = 6
+gap_seconds = 30                        # GDELT asks for 1 request / 5 s but refused even 25 s gaps on 12 Nov: go slow
+max_records = 250                       # GDELT's per-query cap; a week that hits it is split into single terms
+countries = ["UK", "EI"]                # GDELT (FIPS) source country codes: United Kingdom, Ireland
+[stage2.slice_b.topics]
+incident = ["data breach", "cyber attack", "ransomware", "cyber incident", "third party breach", "supplier failure",
+            "supplier collapse", "outage", "operational disruption"]
+deal = ["acquisition", "acquires", "merger", "takeover", "demerger"]
+regulatory = ["fined", "enforcement action", "regulator fines", "DORA", "NIS2", "outsourcing regulation",
+              "PRA guidance", "sanctions"]
+
+[stage2.slice_d]                        # regulatory enforcement
+months = 12
+govuk_orgs = ["ofgem", "ofwat", "the-pensions-regulator", "regulator-of-social-housing", "office-for-students",
+              "competition-and-markets-authority"]
+govuk_skip_cma_case_types = ["mergers"]  # CMA: consumer and competition enforcement only
+boe_feeds = ["https://www.bankofengland.co.uk/rss/news", "https://www.bankofengland.co.uk/rss/prudential-regulation-publications"]
+fca_sitemaps = ["https://www.fca.org.uk/sitemap-main.xml?page=1", "https://www.fca.org.uk/sitemap-main.xml?page=2"]
+fca_gap_seconds = 5
+ico_sitemap = "https://ico.org.uk/sitemap.xml"
+ico_gap_seconds = 6                     # ICO robots.txt Crawl-delay
+text_chars = 2500                       # first characters of each item sent to the model

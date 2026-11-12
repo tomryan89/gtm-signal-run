@@ -1,0 +1,33 @@
+entity_id,entity_name,to_group,to_group_name,note
+BR000105,ZURICH INSURANCE COMPANY LTD,FP:zurich insurance group ag,Zurich Insurance Group Ag,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR000170,BNP PARIBAS LONDON BRANCH,FP:bnp paribas sa,Bnp Paribas Sa,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR000521,BANK OF MONTREAL,FP:bank of montreal,Bank Of Montreal,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR000548,ROYAL BANK OF CANADA,FP:royal bank of canada,Royal Bank Of Canada,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR001085,"BANCO SANTANDER, S.A., LONDON BRANCH",FP:banco santander s a,"Banco Santander, S.A",Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR001358,BANK OF AMERICA NATIONAL ASSOCIATION,FP:bank of america corporation,Bank Of America Corporation,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR006915,M&C SAATCHI INTERNATIONAL HOLDINGS B.V.,FP:m and c saatchi international holdings b v,M&C Saatchi International Holdings B.V.,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR007627,TATA CONSULTANCY SERVICES LIMITED,FP:tata consultancy services ltd,Tata Consultancy Services Limited,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR015270,STRABAG AG-UK BRANCH,FP:strabag se,Strabag Se,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR016211,INDUSTRIAL AND COMMERCIAL BANK OF CHINA LIMITED LONDON BRANCH,FP:industrial and commercial bank of china ltd,Industrial And Commercial Bank Of China Limited,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR017930,DFDS A/S,FP:dfds a s,Dfds A/S,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR024103,INSPIRED ENTERTAINMENT (MALTA) LIMITED,FP:inspired entertainment holdings llc,Inspired Entertainment Holdings Llc,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR024134,INSPIRED ENTERTAINMENT (MALTA) HOLDINGS LIMITED,FP:inspired entertainment holdings llc,Inspired Entertainment Holdings Llc,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR024731,"UNIPER GLOBAL COMMODITIES SE, UK BRANCH",FP:uniper global commodities se,Uniper Global Commodities Se,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+BR025038,THE BANK OF NEW YORK MELLON,FP:bank of new york mellon corporation,The Bank Of New York Mellon Corporation,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC000268,SOCIETE GENERALE,FP:societe generale,Societe Generale,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC005522,THE BANK OF NEW YORK MELLON,FP:bank of new york mellon corporation,The Bank Of New York Mellon Corporation,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC013447,BNP PARIBAS,FP:bnp paribas sa,Bnp Paribas Sa,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC025119,DNB BANK ASA,FP:dnb bank asa,Dnb Bank Asa,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC025960,MITSUBISHI MATERIALS CORPORATION,FP:mitsubishi materials corporation,Mitsubishi Materials Corporation,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC030275,STRABAG AG - UK BRANCH,FP:strabag se,Strabag Se,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC034787,HISCOX SA,FP:hiscox ltd,Hiscox Ltd,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC038787,FORESIGHT GROUP HOLDINGS LIMITED,FP:foresight group holdings ltd,Foresight Group Holdings Limited,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC039028,GENIUS SPORTS LIMITED,FP:genius sports ltd,Genius Sports Limited,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC039175,SGS (JERSEY) NEWCO LIMITED,FP:sgs jersey newco ltd,Sgs (Jersey) Newco Limited,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC039608,LINEAGE UK HOLDINGS LIMITED,FP:lineage inc,"Lineage, Inc",Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+FC039625,UNIPER GLOBAL COMMODITIES SE,FP:uniper global commodities se,Uniper Global Commodities Se,Tom 11 Nov: apply merge proposal - a) UK branch -> foreign parent of the same name
+CRO-218007,BNY MELLON FUND SERVICES (IRELAND) DESIGNATED ACTIVITY COMPANY,FP:bank of new york mellon corporation,The Bank Of New York Mellon Corporation,Tom 11 Nov: apply merge proposal - b) Irish entity -> group the brand lookup maps the brand to
+CRO-623889,BUPA GLOBAL DESIGNATED ACTIVITY COMPANY,UK:00432511,BRITISH UNITED PROVIDENT ASSOCIATION LIMITED(THE),Tom 11 Nov: apply merge proposal - b) Irish entity -> group the brand lookup maps the brand to
+CRO-908966,HSBC CONTINENTAL EUROPE,UK:00617987,HSBC HOLDINGS PLC,Tom 11 Nov: apply merge proposal - b) Irish entity -> group the brand lookup maps the brand to
+11283101,CITIBANK UK LIMITED,FP:citigroup inc,Citigroup Inc.,Tom 11 Nov: Citibank UK into Citigroup
+07503666,J.P. MORGAN PERSONAL INVESTING LIMITED,FP:jpmorgan chase and company,Jpmorgan Chase & Co.,Tom 11 Nov (full run review point 5): merge into the JPMorgan Chase group

@@ -1,0 +1,43 @@
+# ---- secrets: API keys live only in .env (copy .env.example)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets*
+
+# ---- downloads and saved source data (large; some licensed for the key holder's own use only)
+data/
+raw/
+archive/
+*.pdf
+*.zip
+
+# ---- data pulled from ransomware.live, NewsAPI.ai, Adzuna, Reed (use, not republishing), wherever it lands
+*ransomware*.csv
+*ransomware*.json
+*newsapi*.csv
+*newsapi*.json
+*news_stories*
+*news_matched*
+*adzuna*.csv
+*adzuna*.json
+*job_adverts*
+*peer_incidents*
+
+# ---- outputs and review packs (they name individuals, e.g. FCA Senior Managers)
+output/
+full_run_review/
+pilot_review/
+*.xlsx
+*.xls
+logs/
+*.log
+
+# ---- python and editors
+.venv/
+__pycache__/
+*.pyc
+*.swp
+*.swo
+.*.sw?
